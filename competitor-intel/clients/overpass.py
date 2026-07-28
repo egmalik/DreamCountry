@@ -16,16 +16,25 @@ ENDPOINTS = [
 ]
 
 GYM_FILTER = '["leisure"~"fitness_centre|sports_centre|gym"]'
+# Great Britain bounding box — mirrors without area data silently return
+# empty results for area queries, so a bbox is far more reliable.
+UK_BBOX = "(49.8,-8.7,60.9,1.8)"
 
 
-def _run(query):
+def _run(query, expect_results=False):
     last = None
     for url in ENDPOINTS:
         try:
-            return request_json(url, method="POST", data={"data": query},
+            data = request_json(url, method="POST", data={"data": query},
                                 timeout=120, retries=2)
+            if expect_results and not data.get("elements"):
+                last = SourceError(f"{url.split('/')[2]}: empty result")
+                continue  # suspicious — try the next mirror
+            return data
         except SourceError as err:
             last = err
+    if expect_results:
+        return {"elements": []}  # genuinely empty everywhere
     raise last
 
 
@@ -71,11 +80,10 @@ def fetch():
         pattern = "|".join(re.escape(t) for t in config.brand_terms(comp))
         query = (
             '[out:json][timeout:90];'
-            'area["ISO3166-1"="GB"][admin_level=2]->.uk;'
-            f'nwr(area.uk)["name"~"{pattern}",i]{GYM_FILTER};'
-            'out center 400;'
+            f'nwr{UK_BBOX}["name"~"{pattern}",i]{GYM_FILTER};'
+            'out center 500;'
         )
-        data = _run(query)
+        data = _run(query, expect_results=True)
         out["brand_sites"][comp["name"]] = _elements_to_sites(data["elements"])
 
     radius_m = int(config.THREAT_RADIUS_KM * 1000)

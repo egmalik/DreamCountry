@@ -65,7 +65,11 @@ def summarize(results):
     plan = get("planit_uk")
     if plan:
         for app in plan["near_our_clubs"][:10]:
-            where = f"{app.get('distance_km', '?')} km from {app.get('nearest_own_club', '?')}"
+            if app.get("distance_km") is not None:
+                where = f"{app['distance_km']} km from {app['nearest_own_club']}"
+            else:
+                where = (f"within {config.THREAT_RADIUS_KM} km of "
+                         f"{app.get('nearest_own_club', 'a club')}")
             threats.append(f"- **Planning application {where}** [{app.get('status')}]: "
                            f"{app.get('description') or ''} — {app.get('address') or ''}")
     races = get("runsignup_races")

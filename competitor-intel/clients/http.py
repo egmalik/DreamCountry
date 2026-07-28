@@ -11,8 +11,9 @@ SESSION.headers["User-Agent"] = config.CONTACT
 # Seconds to sleep between calls to the same host — keeps us inside every
 # free tier's politeness expectations.
 PACING = 1.0
-# Hosts with stricter documented limits (GDELT: max 1 request per 5s).
-HOST_PACING = {"api.gdeltproject.org": 5.0}
+# Hosts with stricter documented limits (GDELT: max 1 request per 5s, and
+# shared CI egress IPs make collisions likely — pace well below the limit).
+HOST_PACING = {"api.gdeltproject.org": 8.0}
 
 _last_call = {}
 
@@ -32,7 +33,11 @@ def request_json(url, params=None, method="GET", data=None, headers=None,
             resp = SESSION.request(method, url, params=params, data=data,
                                    headers=headers, timeout=timeout)
             _last_call[host] = time.time()
-            if resp.status_code == 429 or resp.status_code >= 500:
+            if resp.status_code == 429:
+                # Rate limited: wait considerably longer than normal backoff.
+                time.sleep(10 * (attempt + 1))
+                raise SourceError(f"HTTP 429 from {host}")
+            if resp.status_code >= 500:
                 raise SourceError(f"HTTP {resp.status_code} from {host}")
             if resp.status_code >= 400:
                 # Client errors won't improve with retries.

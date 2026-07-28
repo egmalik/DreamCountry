@@ -3,11 +3,18 @@ being planned months before they open, filtered around our own sites.
 
 Free, keyless. Docs: https://www.planit.org.uk/api/
 """
+import re
+
 import config
 from clients import geo
 from clients.http import request_json
 
 API = "https://www.planit.org.uk/api/applics/json"
+
+# PlanIt's full-text search stems aggressively ("fitness" also matches
+# "fitting"); require a real keyword before treating a hit as relevant.
+RELEVANT = re.compile(r"\b(gym|gymnasium|fitness|leisure centre|health club)\b",
+                      re.IGNORECASE)
 
 
 def probe():
@@ -15,8 +22,17 @@ def probe():
     return f'{data.get("total", data.get("count", "?"))} matching application(s) in index'
 
 
-def _simplify(rec):
+def _coords(rec):
     lat, lon = rec.get("lat"), rec.get("lng")
+    if lat is None:
+        coords = (rec.get("location") or {}).get("coordinates") or []
+        if len(coords) == 2:
+            lon, lat = coords  # GeoJSON order
+    return lat, lon
+
+
+def _simplify(rec):
+    lat, lon = _coords(rec)
     entry = {
         "uid": rec.get("uid") or rec.get("name"),
         "authority": rec.get("area_name"),
@@ -45,7 +61,9 @@ def fetch():
 
     data = request_json(API, params={
         "search": "gym OR fitness", "recent": 120, "pg_sz": 100})
-    out["gym_applications_recent"] = [_simplify(r) for r in _records(data)]
+    out["gym_applications_recent"] = [
+        e for e in (_simplify(r) for r in _records(data))
+        if RELEVANT.search(e["description"] or "")]
 
     seen = set()
     for club in config.OWN_CLUBS:
@@ -55,9 +73,12 @@ def fetch():
             "krad": config.THREAT_RADIUS_KM, "recent": 365, "pg_sz": 50})
         for rec in _records(data):
             entry = _simplify(rec)
-            if entry["uid"] in seen:
+            if entry["uid"] in seen or not RELEVANT.search(entry["description"] or ""):
                 continue
             seen.add(entry["uid"])
+            # The radius query itself ties the hit to this club even when
+            # the record carries no usable coordinates.
+            entry.setdefault("nearest_own_club", club["name"])
             out["near_our_clubs"].append(entry)
     out["near_our_clubs"].sort(key=lambda e: e.get("distance_km", 999))
     return out

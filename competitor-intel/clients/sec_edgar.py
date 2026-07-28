@@ -13,6 +13,13 @@ TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
 INTERESTING_FORMS = {"10-K", "10-Q", "8-K", "S-1", "DEF 14A"}
 
+# www.sec.gov blocks many datacenter IP ranges outright, while data.sec.gov
+# often still answers. Known CIKs let us skip the ticker lookup entirely.
+FALLBACK_CIKS = {
+    "PLNT": 1637207,   # Planet Fitness, Inc.
+    "LTH": 1869198,    # Life Time Group Holdings, Inc.
+}
+
 
 def _headers():
     contact = os.environ.get("SEC_CONTACT_EMAIL",
@@ -26,13 +33,16 @@ def _get(url):
 
 
 def _cik_map():
-    data = _get(TICKERS_URL)
-    return {row["ticker"].upper(): row["cik_str"] for row in data.values()}
+    try:
+        data = _get(TICKERS_URL)
+        return {row["ticker"].upper(): row["cik_str"] for row in data.values()}
+    except Exception:  # noqa: BLE001 - www.sec.gov IP-blocked: use known CIKs
+        return dict(FALLBACK_CIKS)
 
 
 def probe():
-    ciks = _cik_map()
-    return f'ticker map loaded ({len(ciks)} companies); PLNT CIK={ciks.get("PLNT")}'
+    sub = _get(SUBMISSIONS.format(cik=FALLBACK_CIKS["PLNT"]))
+    return f'data.sec.gov reachable; PLNT = {sub.get("name")}'
 
 
 def fetch():

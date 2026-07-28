@@ -33,7 +33,7 @@ def fetch():
     out = {"brand_news": {}, "event_signals": {}}
     for comp in config.COMPETITORS:
         name = comp["name"]
-        quoted = f'"{name}"'
+        quoted = comp.get("news_query") or f'"{name}"'
         try:
             out["brand_news"][name] = _search(quoted, maxrecords=15)
         except SourceError as err:

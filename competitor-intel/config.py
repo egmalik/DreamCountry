@@ -98,6 +98,8 @@ COMPETITORS = [
     },
     {
         "name": "Life Time",
+        # "Life Time" alone matches the everyday phrase in news text.
+        "news_query": '"Life Time" (gym OR fitness OR "health club")',
         "aliases": ["Life Time Fitness"],
         "country": "US",
         "domain": "lifetime.life",
