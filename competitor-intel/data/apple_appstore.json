@@ -1,6 +1,6 @@
 {
  "source": "apple_appstore",
- "collected_at": "2026-07-28T22:20:57+00:00",
+ "collected_at": "2026-07-28T22:58:44+00:00",
  "ok": true,
  "data": [
   {
@@ -12,38 +12,7 @@
    "current_version": "6.0.0",
    "last_updated": "2026-07-10T13:28:59Z",
    "genre": "Health & Fitness",
-   "recent_reviews": [
-    {
-     "title": "Outstanding",
-     "rating": "5",
-     "text": "Friendly and welcoming environment",
-     "version": "6.0.0"
-    },
-    {
-     "title": "Work it",
-     "rating": "5",
-     "text": "Quality just quantity",
-     "version": "6.0.0"
-    },
-    {
-     "title": "Unprofessional",
-     "rating": "1",
-     "text": "I use the PureGym at First Street. I brought my mother in using bring a buddy code, Callum Brady walked up to me and asked if I had membership I said yes. I came in with my code, I had no plans to use the gym just to escort my mum. We went upstairs and he sent another colleague to come and harass us asking for code, I eventually showed him the two separate codes he apologized and said Callum said ",
-     "version": "6.0.0"
-    },
-    {
-     "title": "Slow",
-     "rating": "2",
-     "text": "Always slower than just entering the door code. It doesn’t even show opening times in the app, it opens the website.",
-     "version": "6.0.0"
-    },
-    {
-     "title": "Utterly sick of standing at my gym front door!!!!!!",
-     "rating": "1",
-     "text": "SERIOUSLY get the he gym access sorted, before you load up all the rest of the bloat where in your app have the gym access start, the amount of time I have to stand like an idiot waiting on gym access QR to load is frankly a joke!   I don’t use your rubbish app for anything but gym access, so have it load instantly….  INSTANTLY or have a second app just for access with the QR code already loaded b",
-     "version": "6.0.0"
-    }
-   ]
+   "recent_reviews": []
   },
   {
    "competitor": "The Gym Group",
