@@ -1,0 +1,65 @@
+name: competitor-intel-collect
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly, Monday 06:00 UTC (cron only fires once merged to the default branch)
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: competitor-intel-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Tier B keys — add them as repository secrets to activate those sources
+      GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+      YELP_API_KEY: ${{ secrets.YELP_API_KEY }}
+      META_AD_LIBRARY_TOKEN: ${{ secrets.META_AD_LIBRARY_TOKEN }}
+      COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
+      ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+      ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+      EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Test connections
+        working-directory: competitor-intel
+        run: python test_connections.py
+        continue-on-error: true
+
+      - name: Collect competitor data
+        working-directory: competitor-intel
+        run: python collect.py
+
+      - name: Upload data as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: competitor-intel-data
+          path: competitor-intel/data/
+
+      - name: Commit refreshed data to this branch
+        run: |
+          git config user.name "competitor-intel-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add competitor-intel/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: refresh competitor intel data [skip ci]"
+            git push
+          fi
