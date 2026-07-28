@@ -1,0 +1,5260 @@
+{
+ "source": "overpass_osm",
+ "collected_at": "2026-07-28T22:11:38+00:00",
+ "ok": true,
+ "data": {
+  "brand_sites": {
+   "PureGym": [],
+   "The Gym Group": [],
+   "David Lloyd": [
+    {
+     "osm_id": "way/49745706",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5097443,
+     "lon": -0.2564723,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 2.92
+    },
+    {
+     "osm_id": "node/130223626",
+     "name": "David Lloyd Colliers Wood",
+     "brand": "David Lloyd",
+     "lat": 51.4141907,
+     "lon": -0.1801802,
+     "address": "29 Chapter Way London SW19 2RF",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 5.64
+    },
+    {
+     "osm_id": "way/143235226",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5593298,
+     "lon": -0.2098013,
+     "address": "108-110 Cricklewood Lane London NW2 2DS",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 5.69
+    },
+    {
+     "osm_id": "way/5251130",
+     "name": "David Lloyd Raynes Park health club",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.4056536,
+     "lon": -0.2225432,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 7.49
+    },
+    {
+     "osm_id": "way/491533940",
+     "name": "David Lloyd Raynes Park",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.4055749,
+     "lon": -0.222772,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 7.5
+    },
+    {
+     "osm_id": "way/187826914",
+     "name": "David Lloyd Finchley",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.606857,
+     "lon": -0.1732249,
+     "address": "High Road London N12 0QZ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 9.69
+    },
+    {
+     "osm_id": "way/294036222",
+     "name": "David Lloyd Kidbrooke",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.4588763,
+     "lon": 0.025846,
+     "address": "Kidbrooke Park Road London SE12 8HG",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 9.96
+    },
+    {
+     "osm_id": "node/13621536303",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 51.4121758,
+     "lon": -0.2995679,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 10.36
+    },
+    {
+     "osm_id": "way/4808836",
+     "name": "David Lloyd Club - Sudbury Hill",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5558094,
+     "lon": -0.3436792,
+     "address": "Greenford Road Greenford UB6 0UX",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 10.84
+    },
+    {
+     "osm_id": "way/276094238",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.4359411,
+     "lon": -0.3727474,
+     "address": "Staines Road TW2 5JD",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 12.07
+    },
+    {
+     "osm_id": "way/14759204",
+     "name": "David Lloyd Beckenham",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.3940574,
+     "lon": -0.0371283,
+     "address": "Stanhope Grove Beckenham BR3 3HL",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 12.09
+    },
+    {
+     "osm_id": "way/10589795",
+     "name": "David Lloyd Raquet Health and Fitness Club",
+     "brand": null,
+     "lat": 51.4932991,
+     "lon": -0.4004009,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 12.19
+    },
+    {
+     "osm_id": "relation/19704224",
+     "name": "David Lloyd Cheam",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.3549686,
+     "lon": -0.2254955,
+     "address": "Ewell Road SM3 8DP",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 12.77
+    },
+    {
+     "osm_id": "way/377518281",
+     "name": "David Lloyd Fitness Centre",
+     "brand": null,
+     "lat": 51.3449705,
+     "lon": -0.2881326,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 15.61
+    },
+    {
+     "osm_id": "way/4402236",
+     "name": "David Lloyd Centre",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.659335,
+     "lon": -0.0611682,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 15.79
+    },
+    {
+     "osm_id": "way/26642506",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 51.6292892,
+     "lon": 0.063123,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 15.95
+    },
+    {
+     "osm_id": "way/241098807",
+     "name": "David Lloyd Sidcup",
+     "brand": null,
+     "lat": 51.42228,
+     "lon": 0.1159198,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 17.37
+    },
+    {
+     "osm_id": "way/47630729",
+     "name": "David Lloyd Clubs Northwood",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.6125466,
+     "lon": -0.4435315,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 20.18
+    },
+    {
+     "osm_id": "way/220068625",
+     "name": "David Lloyd Leisure Centre",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.6632149,
+     "lon": -0.3652784,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 21.32
+    },
+    {
+     "osm_id": "way/60128665",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.583691,
+     "lon": 0.2157253,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 21.87
+    },
+    {
+     "osm_id": "way/160905617",
+     "name": "David Lloyd Health Club",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.3466903,
+     "lon": -0.461548,
+     "address": "Brooklands Road Weybridge KT13 0BD",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 23.11
+    },
+    {
+     "osm_id": "way/38096477",
+     "name": "David Lloyd Clubs Dartford",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.4368573,
+     "lon": 0.227447,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 23.27
+    },
+    {
+     "osm_id": "way/39251371",
+     "name": "David Lloyd Leisure",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.7652265,
+     "lon": -0.2439306,
+     "address": "Mosquito Way Hatfield AL10 9AX",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 27.89
+    },
+    {
+     "osm_id": "node/1940131392",
+     "name": "David Lloyd Leisure",
+     "brand": null,
+     "lat": 51.3052259,
+     "lon": -0.5580255,
+     "address": "Westfield Avenue Woking GU22 9PF",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 31.15
+    },
+    {
+     "osm_id": "way/1342283365",
+     "name": "David Lloyd Harlow",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.7754501,
+     "lon": 0.1308323,
+     "address": "Newhall Way Harlow CM17 9XH",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 32.19
+    },
+    {
+     "osm_id": "way/298294210",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5960519,
+     "lon": -0.6824189,
+     "address": "Wooburn Green High Wycombe HP10 0BY",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 33.7
+    },
+    {
+     "osm_id": "node/2421932504",
+     "name": "David Lloyd",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5202961,
+     "lon": -0.7223175,
+     "address": "Grenfell Place Maidenhead SL6 1HJ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 34.6
+    },
+    {
+     "osm_id": "way/174000251",
+     "name": "David Lloyd Royal Berkshire",
+     "brand": "David Lloyd",
+     "lat": 51.3892336,
+     "lon": -0.7419923,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 37.68
+    },
+    {
+     "osm_id": "way/91215781",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5862901,
+     "lon": 0.4625606,
+     "address": "Pipps Hill Road South Basildon SS14 3DG",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 38.43
+    },
+    {
+     "osm_id": "way/693944334",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.8993912,
+     "lon": -0.2093379,
+     "address": "Kings Way Stevenage SG1 2UA",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 42.31
+    },
+    {
+     "osm_id": "way/178522120",
+     "name": "David Lloyd Sports Centre",
+     "brand": null,
+     "lat": 51.2763272,
+     "lon": 0.3925681,
+     "address": "21 Kings Hill Avenue ME19 4UA",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 42.51
+    },
+    {
+     "osm_id": "way/203271342",
+     "name": "David Lloyd Farnham",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.2276076,
+     "lon": -0.7767393,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 48.38
+    },
+    {
+     "osm_id": "way/65465781",
+     "name": "David Lloyd Leisure",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.462254,
+     "lon": -0.9321004,
+     "address": "Thames Valley Park Drive Reading RG6 1PT",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 49.14
+    },
+    {
+     "osm_id": "node/8839042989",
+     "name": "David Lloyd",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.2701737,
+     "lon": 0.5193303,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 50.01
+    },
+    {
+     "osm_id": "way/103894213",
+     "name": "David Lloyd Clubs Southend",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5658228,
+     "lon": 0.6698719,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 52.29
+    },
+    {
+     "osm_id": "way/106626253",
+     "name": "David Lloyd Health Club",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.0528344,
+     "lon": -0.7334688,
+     "address": "Livingstone Drive Milton Keynes MK15 0DL",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 71.28
+    },
+    {
+     "osm_id": "way/24292526",
+     "name": "David Lloyd Sports Centre",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.7316714,
+     "lon": -1.2023088,
+     "address": "Alec Issigonis Way Oxford OX4 2JY",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 72.57
+    },
+    {
+     "osm_id": "way/61636523",
+     "name": "David Lloyd Gym",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.8122335,
+     "lon": -0.1070254,
+     "address": "Brighton BN2 5UT",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 72.66
+    },
+    {
+     "osm_id": "way/61886157",
+     "name": "David Lloyd",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.8260797,
+     "lon": -0.4292446,
+     "address": "Worthing BN13 3DL",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 73.26
+    },
+    {
+     "osm_id": "way/511772388",
+     "name": "David Lloyd Cambridge",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.1939255,
+     "lon": 0.1670075,
+     "address": "Coldhams Lane Cambridge CB1 3LH",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 77.1
+    },
+    {
+     "osm_id": "way/846954598",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.3808131,
+     "lon": -1.3365227,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 78.09
+    },
+    {
+     "osm_id": "way/42715004",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.7940183,
+     "lon": 0.2765088,
+     "address": "Broadwater Way BN22 9PZ",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 80.8
+    },
+    {
+     "osm_id": "way/503373492",
+     "name": "David Lloyd Colchester",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.9216751,
+     "lon": 0.9009917,
+     "address": "United Way Colchester CO4 6AT",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 81.26
+    },
+    {
+     "osm_id": "way/1382575175",
+     "name": "David Lloyd Herne Bay",
+     "brand": null,
+     "lat": 51.3626205,
+     "lon": 1.1517515,
+     "address": "CT6 6GZ",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 87.26
+    },
+    {
+     "osm_id": "way/29889433",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.8405195,
+     "lon": -1.0979561,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 94.71
+    },
+    {
+     "osm_id": "way/204396428",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.9256555,
+     "lon": -1.3243313,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 99.23
+    },
+    {
+     "osm_id": "way/28878483",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.0273799,
+     "lon": 1.2135046,
+     "address": "11 The Havens Ipswich IP3 9SJ",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 105.63
+    },
+    {
+     "osm_id": "way/23186694",
+     "name": "David Lloyd Centre",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.9360234,
+     "lon": -1.4629034,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 106.18
+    },
+    {
+     "osm_id": "way/169765562",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.6040818,
+     "lon": -1.7838383,
+     "address": "Latham Road Swindon SN25 4DL",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 108.54
+    },
+    {
+     "osm_id": "node/13854052023",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.5685843,
+     "lon": -0.2987933,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 116.97
+    },
+    {
+     "osm_id": "relation/16706322",
+     "name": "David Lloyd Ringwood",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.8371038,
+     "lon": -1.7853446,
+     "address": "242 Christchurch Road BH24 3AS",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 131.0
+    },
+    {
+     "osm_id": "way/90674254",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.390439,
+     "lon": -1.4895412,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 132.23
+    },
+    {
+     "osm_id": "way/280137559",
+     "name": "David Lloyd Leisure",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.5809107,
+     "lon": -1.2046941,
+     "address": "King Edward Avenue Narborough LE19 0LF",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 138.0
+    },
+    {
+     "osm_id": "way/57884973",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.8472297,
+     "lon": -2.1702216,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 139.86
+    },
+    {
+     "osm_id": "way/123412409",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.6124693,
+     "lon": -1.1885456,
+     "address": "Lubbesthorpe Way Leicester LE19 1JZ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 140.44
+    },
+    {
+     "osm_id": "way/61975398",
+     "name": "David Lloyd Solihull",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.3952856,
+     "lon": -1.8091702,
+     "address": "Cranmore Boulevard Solihull B90 4ZL",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 147.89
+    },
+    {
+     "osm_id": "way/270718306",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.7455841,
+     "lon": -1.9900628,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 148.62
+    },
+    {
+     "osm_id": "way/1505967294",
+     "name": "David Lloyd",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.491074,
+     "lon": -2.4686619,
+     "address": "Bristol BS16 7PF",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 155.38
+    },
+    {
+     "osm_id": "way/252727139",
+     "name": "David Lloyd Leisure",
+     "brand": null,
+     "lat": 52.2161186,
+     "lon": -2.1614321,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 155.46
+    },
+    {
+     "osm_id": "way/316055519",
+     "name": "David Lloyd Club Norwich",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.6539595,
+     "lon": 1.2643699,
+     "address": "Drayton High Road Norwich NR6 5DU",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 156.28
+    },
+    {
+     "osm_id": "way/737277008",
+     "name": "David Lloyd Leisure",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.6549314,
+     "lon": 1.263323,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 156.32
+    },
+    {
+     "osm_id": "way/54869302",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.3380787,
+     "lon": -2.0485587,
+     "address": "Slideslow Avenue Bromsgrove B60 1GJ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 156.49
+    },
+    {
+     "osm_id": "way/395786542",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.5533392,
+     "lon": -1.8970771,
+     "address": "Shady Lane Birmingham B44 9ER",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 164.34
+    },
+    {
+     "osm_id": "way/144173670",
+     "name": "David Lloyd Leisure Centre",
+     "brand": null,
+     "lat": 51.4981924,
+     "lon": -2.611312,
+     "address": "Greystoke Avenue Bristol BS10 6AZ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 165.24
+    },
+    {
+     "osm_id": "way/23757583",
+     "name": "David Lloyd Leisure Centre",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.437701,
+     "lon": -2.6314908,
+     "address": "Bristol BS3 2HB",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 166.86
+    },
+    {
+     "osm_id": "way/160191296",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.6520333,
+     "lon": -1.8363802,
+     "address": "Birmingham Road WS14 0QP",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 169.57
+    },
+    {
+     "osm_id": "way/29357813",
+     "name": "David Lloyd",
+     "brand": null,
+     "lat": 52.9256147,
+     "lon": -1.1437058,
+     "address": "Rugby Road Nottingham NG2 7HX",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 170.11
+    },
+    {
+     "osm_id": "way/1241239829",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.4879811,
+     "lon": -2.1250938,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 170.83
+    },
+    {
+     "osm_id": "way/35591153",
+     "name": "David Lloyd",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.9664281,
+     "lon": -1.1888379,
+     "address": "Aspley Lane Nottingham NG8 5AR",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 175.48
+    },
+    {
+     "osm_id": "way/58154695",
+     "name": "David Lloyd Racquet, Health and Fitness Club",
+     "brand": "David Lloyd Clubs",
+     "lat": 52.9176813,
+     "lon": -1.4580622,
+     "address": "Riverside Road Derby DE24 8HY",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 178.89
+    },
+    {
+     "osm_id": "node/2157886817",
+     "name": "David LLoyd, Burton Waters",
+     "brand": null,
+     "lat": 53.2523169,
+     "lon": -0.6025786,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 194.95
+    },
+    {
+     "osm_id": "way/222962651",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 51.5028076,
+     "lon": -3.1457721,
+     "address": "CF23 9AQ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 202.23
+    },
+    {
+     "osm_id": "way/58233314",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 50.7098474,
+     "lon": -3.4697652,
+     "address": "Sandy Park Way Exeter EX2 7NN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 242.73
+    },
+    {
+     "osm_id": "way/153587792",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.3776581,
+     "lon": -2.2192741,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 249.36
+    },
+    {
+     "osm_id": "way/61314789",
+     "name": "David Lloyd Raquet & Fitness Club",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.7927354,
+     "lon": -0.3575571,
+     "address": "Hull HU7 3DB",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 253.05
+    },
+    {
+     "osm_id": "way/93935334",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.4699569,
+     "lon": -2.3601626,
+     "address": "Manchester M17 8RH",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 263.13
+    },
+    {
+     "osm_id": "way/30581730",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.3876221,
+     "lon": -2.6244869,
+     "address": "Warrington WA5 1HH",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 266.17
+    },
+    {
+     "osm_id": "way/1277844883",
+     "name": "David Lloyd Manchester North",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.5563326,
+     "lon": -2.2339273,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 266.42
+    },
+    {
+     "osm_id": "way/55502893",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.2636463,
+     "lon": -2.8914522,
+     "address": "Ellesmere Port CH65 9JN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 267.46
+    },
+    {
+     "osm_id": "way/15743992",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.3483383,
+     "lon": -2.8830731,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 273.98
+    },
+    {
+     "osm_id": "way/90513288",
+     "name": "David Lloyd Leeds",
+     "brand": null,
+     "lat": 53.843579,
+     "lon": -1.5501573,
+     "address": "Tongue Lane Leeds LS6 4QW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 274.87
+    },
+    {
+     "osm_id": "way/283761361",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.580379,
+     "lon": -2.4401103,
+     "address": "Chorley Street Bolton BL1 4AL",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 276.21
+    },
+    {
+     "osm_id": "way/103812871",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.9515706,
+     "lon": -1.0477091,
+     "address": "Windmill Lane York YO10 3LG",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 276.91
+    },
+    {
+     "osm_id": "way/575501635",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 53.6757813,
+     "lon": -2.6196076,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 291.71
+    },
+    {
+     "osm_id": "way/72991191",
+     "name": "David Lloyd Leisure",
+     "brand": null,
+     "lat": 54.5659855,
+     "lon": -1.2916325,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 347.05
+    },
+    {
+     "osm_id": "way/62213518",
+     "name": "David Lloyd Fitness Sunderland",
+     "brand": null,
+     "lat": 54.8647601,
+     "lon": -1.4308426,
+     "address": "Camberwell Way Sunderland SR3 3XN",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 381.43
+    },
+    {
+     "osm_id": "way/52347223",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.001482,
+     "lon": -1.599363,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 398.78
+    },
+    {
+     "osm_id": "way/38522335",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 54.5863089,
+     "lon": -5.821855,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 508.04
+    },
+    {
+     "osm_id": "way/1196177705",
+     "name": "David Lloyd Edinburgh Shawfair",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.9061567,
+     "lon": -3.0976498,
+     "address": "Easter Shawfair Dalkeith EH22 1FD",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 524.56
+    },
+    {
+     "osm_id": "way/26985485",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.9385639,
+     "lon": -3.3037801,
+     "address": "89B Glasgow Road Edinburgh EH12 8GZ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 532.99
+    },
+    {
+     "osm_id": "way/41320070",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.9841874,
+     "lon": -3.1945555,
+     "address": "Newhaven Place Edinburgh EH6 4TX",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 534.91
+    },
+    {
+     "osm_id": "node/12769322318",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.7815281,
+     "lon": -4.0339256,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 538.14
+    },
+    {
+     "osm_id": "way/1118730071",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.8626534,
+     "lon": -4.3999746,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 557.61
+    },
+    {
+     "osm_id": "way/1278214222",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 55.8980367,
+     "lon": -4.3257134,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 558.55
+    },
+    {
+     "osm_id": "way/420393592",
+     "name": "David Lloyd Clubs",
+     "brand": "David Lloyd Clubs",
+     "lat": 56.4916801,
+     "lon": -2.8341255,
+     "address": "Ethiebeaton Park Dundee DD5 4HB",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 579.71
+    },
+    {
+     "osm_id": "way/116585156",
+     "name": "David Lloyd Leisure Centre",
+     "brand": null,
+     "lat": 57.1193452,
+     "lon": -2.1266929,
+     "address": "Garthdee Road Aberdeen AB10 7AY",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 635.49
+    }
+   ],
+   "Anytime Fitness": [],
+   "Nuffield Health": [
+    {
+     "osm_id": "node/12866448574",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5197188,
+     "lon": -0.0897096,
+     "address": "1 Ropemaker Street London EC2Y 9AW",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 0.55
+    },
+    {
+     "osm_id": "node/3688003145",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5139386,
+     "lon": -0.1239584,
+     "address": null,
+     "nearest_own_club": "Fitness First Tottenham Court Road",
+     "distance_km": 0.58
+    },
+    {
+     "osm_id": "way/318390944",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5206674,
+     "lon": -0.0966176,
+     "address": "97 Aldersgate Street London",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 1.04
+    },
+    {
+     "osm_id": "node/907778096",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.523972,
+     "lon": -0.1181935,
+     "address": null,
+     "nearest_own_club": "Fitness First Tottenham Court Road",
+     "distance_km": 1.11
+    },
+    {
+     "osm_id": "node/1713257252",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5096752,
+     "lon": -0.0914835,
+     "address": "Cousin Lane London EC4R 3XJ",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 1.11
+    },
+    {
+     "osm_id": "node/521689965",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5191877,
+     "lon": -0.1798674,
+     "address": "2 Sheldon Square London",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 1.61
+    },
+    {
+     "osm_id": "way/984944260",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4770457,
+     "lon": -0.2222416,
+     "address": "Stevenage Road London SW6 6PF",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 1.75
+    },
+    {
+     "osm_id": "node/2175185019",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4563514,
+     "lon": -0.1947233,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 1.94
+    },
+    {
+     "osm_id": "node/505801347",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5371752,
+     "lon": -0.101612,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 2.53
+    },
+    {
+     "osm_id": "way/186256959",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4472135,
+     "lon": -0.1944599,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 2.56
+    },
+    {
+     "osm_id": "node/4865395494",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5006021,
+     "lon": -0.01712,
+     "address": "185 Marsh Wall London E14 9SH",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 4.9
+    },
+    {
+     "osm_id": "node/9386821150",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.497062,
+     "lon": -0.0159081,
+     "address": "14 Baltimore Wharf London E14 9FT",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 5.15
+    },
+    {
+     "osm_id": "way/4229092",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5449172,
+     "lon": -0.2213145,
+     "address": "Sidmouth Road London NW2 5JY",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 5.24
+    },
+    {
+     "osm_id": "node/2048127670",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4197623,
+     "lon": -0.2045963,
+     "address": "37 The Broadway London SW19 1QB",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 5.52
+    },
+    {
+     "osm_id": "node/3260045878",
+     "name": "Nuffield Health",
+     "brand": "Virgin Active",
+     "lat": 51.5120604,
+     "lon": -0.3029906,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 5.86
+    },
+    {
+     "osm_id": "way/13868524",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4060832,
+     "lon": -0.1181405,
+     "address": "1212 London Road London SW16 4DN",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 7.42
+    },
+    {
+     "osm_id": "node/1798811866",
+     "name": "Nuffield Health",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5825995,
+     "lon": -0.2265016,
+     "address": "260 Hendon Way London NW4 3NL",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 8.44
+    },
+    {
+     "osm_id": "way/634029753",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4510126,
+     "lon": -0.3426914,
+     "address": "Langhorn Drive Twickenham TW2 7SX",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 9.42
+    },
+    {
+     "osm_id": "node/2285457303",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4155435,
+     "lon": -0.3031612,
+     "address": "Richmond Road Kingston upon Thames KT2 5EN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 10.17
+    },
+    {
+     "osm_id": "node/10760189516",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5573716,
+     "lon": 0.0733804,
+     "address": "68-90 Clements Road Ilford IG1 1BP",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 11.63
+    },
+    {
+     "osm_id": "way/27146804",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.617054,
+     "lon": -0.0055542,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 12.24
+    },
+    {
+     "osm_id": "node/5661461021",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.3565866,
+     "lon": -0.1157078,
+     "address": "619 Purley Way Croydon CR0 4RQ",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 12.58
+    },
+    {
+     "osm_id": "node/4345112384",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.6486274,
+     "lon": -0.0810842,
+     "address": "52 Sydney Road Enfield EN2 6SZ",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 14.54
+    },
+    {
+     "osm_id": "node/8384936111",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5125848,
+     "lon": -0.4443462,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 15.39
+    },
+    {
+     "osm_id": "node/11195615541",
+     "name": "Nuffield Health Gym",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.3910516,
+     "lon": 0.0197157,
+     "address": "Bromley BR2 9EF",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 15.48
+    },
+    {
+     "osm_id": "node/10996165905",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4230473,
+     "lon": 0.0876679,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 15.81
+    },
+    {
+     "osm_id": "node/258940764",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.2945185,
+     "lon": -0.3280641,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 21.85
+    },
+    {
+     "osm_id": "way/46798417",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.645312,
+     "lon": -0.4723582,
+     "address": "Chorleywood Road Rickmansworth WD3 4HF",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 24.12
+    },
+    {
+     "osm_id": "node/1409409135",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5392297,
+     "lon": -0.575863,
+     "address": "Slough SL3 6NB",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 24.87
+    },
+    {
+     "osm_id": "way/24595987",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.3305989,
+     "lon": -0.4993277,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 26.24
+    },
+    {
+     "osm_id": "way/4751781",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.7388093,
+     "lon": -0.3067223,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 26.41
+    },
+    {
+     "osm_id": "way/48893866",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.7975721,
+     "lon": -0.0680564,
+     "address": "Hertford SG13 7RQ",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 31.11
+    },
+    {
+     "osm_id": "way/61994436",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.7570657,
+     "lon": -0.436178,
+     "address": "Maylands Avenue Hemel Hempstead HP2 4NW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 32.64
+    },
+    {
+     "osm_id": "way/51199553",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.2596301,
+     "lon": -0.5891275,
+     "address": "Railton Road Guildford GU2 9QB",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 36.23
+    },
+    {
+     "osm_id": "node/2244998902",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.1191631,
+     "lon": -0.1357606,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 38.47
+    },
+    {
+     "osm_id": "node/1636261203",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.8675951,
+     "lon": 0.1624363,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 42.39
+    },
+    {
+     "osm_id": "node/4572933691",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.409618,
+     "lon": -0.8363783,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 43.41
+    },
+    {
+     "osm_id": "way/140989501",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.7390518,
+     "lon": 0.4803004,
+     "address": "Victoria Road Chelmsford CM1 1AN",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 45.96
+    },
+    {
+     "osm_id": "node/2302985578",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.1525557,
+     "lon": 0.2967243,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 47.49
+    },
+    {
+     "osm_id": "way/782803486",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.2300814,
+     "lon": -0.7780862,
+     "address": "Weybourne Road Farnham GU9 9EL",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 48.28
+    },
+    {
+     "osm_id": "way/65235894",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4202858,
+     "lon": -0.9865302,
+     "address": "240 South Oak Way Reading RG2 6UL",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 53.42
+    },
+    {
+     "osm_id": "way/44834641",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.0293164,
+     "lon": -0.7034343,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 67.96
+    },
+    {
+     "osm_id": "node/576806351",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.0417585,
+     "lon": -0.7474648,
+     "address": "Milton Keynes MK9 3XA",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 70.81
+    },
+    {
+     "osm_id": "way/121064794",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.3973864,
+     "lon": -1.2986687,
+     "address": "RG14 7PN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 75.21
+    },
+    {
+     "osm_id": "way/29262824",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.206343,
+     "lon": 0.1480033,
+     "address": "213 Cromwell Road Cambridge CB1 3BA",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 78.17
+    },
+    {
+     "osm_id": "relation/12695053",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.7752225,
+     "lon": -1.2724407,
+     "address": "269C Woodstock Road Oxford OX2 7NZ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 78.87
+    },
+    {
+     "osm_id": "node/282482271",
+     "name": "Nuffield Healthclub",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 50.8302798,
+     "lon": -0.7836423,
+     "address": "Chichester Gate Chichester PO19 8EL",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 82.5
+    },
+    {
+     "osm_id": "way/105405142",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.2379246,
+     "lon": -0.9320488,
+     "address": "Walter Tull Way Northampton NN5 5QL",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 95.92
+    },
+    {
+     "osm_id": "way/166213368",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5720184,
+     "lon": -1.7561719,
+     "address": "Stratton Road Swindon SN3 3SQ",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 106.33
+    },
+    {
+     "osm_id": "node/3079881781",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.3849892,
+     "lon": -1.2576742,
+     "address": "Leicester Road Rugby CV21 1RW",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 121.91
+    },
+    {
+     "osm_id": "way/327123646",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.2690478,
+     "lon": -1.5497154,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 125.41
+    },
+    {
+     "osm_id": "way/186437572",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.4969627,
+     "lon": -1.4784912,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 140.86
+    },
+    {
+     "osm_id": "way/59013169",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.8673223,
+     "lon": -2.1971545,
+     "address": "Gloucester GL4 3HR",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 142.25
+    },
+    {
+     "osm_id": "way/68666207",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.6507265,
+     "lon": -1.13987,
+     "address": "1 Byford Way Leicester LE4 0DZ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 142.52
+    },
+    {
+     "osm_id": "way/117915345",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.634834,
+     "lon": 1.3070424,
+     "address": "Barrack Street Norwich NR3 1TS",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 156.33
+    },
+    {
+     "osm_id": "node/309410764",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.3990051,
+     "lon": -2.0045318,
+     "address": "20 Ashbrook Drive Birmingham B45 9FN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 158.25
+    },
+    {
+     "osm_id": "way/252727743",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.2148385,
+     "lon": -2.2191428,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 158.8
+    },
+    {
+     "osm_id": "node/6418232440",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.4739147,
+     "lon": -1.9209637,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 159.38
+    },
+    {
+     "osm_id": "way/121012296",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.5171394,
+     "lon": -2.5334019,
+     "address": "Hunts Ground Road Bristol BS34 8HN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 159.84
+    },
+    {
+     "osm_id": "way/261007869",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4569037,
+     "lon": -2.6083755,
+     "address": "83 Queen's Road Bristol BS8 1QS",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 165.16
+    },
+    {
+     "osm_id": "way/351011722",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.9896468,
+     "lon": -1.1111269,
+     "address": "Plains Road Nottingham NG3 5RH",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 175.82
+    },
+    {
+     "osm_id": "way/224884952",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 50.9408449,
+     "lon": -2.6248594,
+     "address": "Yeo Leisure Park Yeovil BA20 1NP",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 178.09
+    },
+    {
+     "osm_id": "way/111597287",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.9261133,
+     "lon": -1.4618681,
+     "address": "Nottingham Road Derby DE21 6DA",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 179.82
+    },
+    {
+     "osm_id": "way/412529451",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.699641,
+     "lon": -2.0084247,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 181.28
+    },
+    {
+     "osm_id": "way/150916412",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.6368369,
+     "lon": -2.1239462,
+     "address": "Wolverhampton WV10 6TA",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 181.78
+    },
+    {
+     "osm_id": "way/116618436",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.6616636,
+     "lon": -3.0189129,
+     "address": "Avondale Road",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 194.02
+    },
+    {
+     "osm_id": "way/165316143",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.6816719,
+     "lon": -2.4517337,
+     "address": "Colliers Way Telford TF3 4AG",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 201.58
+    },
+    {
+     "osm_id": "way/152330036",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.0145632,
+     "lon": -3.0965048,
+     "address": "153-156 East Reach Taunton TA1 3HT",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 206.82
+    },
+    {
+     "osm_id": "way/148397512",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.2289736,
+     "lon": -1.4221426,
+     "address": "Derby Road Chesterfield S40 2EZ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 208.5
+    },
+    {
+     "osm_id": "way/89884340",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 52.9880794,
+     "lon": -2.1724368,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 212.69
+    },
+    {
+     "osm_id": "way/63408007",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.3712836,
+     "lon": -1.4814288,
+     "address": "Napier Street Sheffield S11 8HA",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 224.54
+    },
+    {
+     "osm_id": "way/846984172",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 51.4990332,
+     "lon": -3.5413099,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 229.61
+    },
+    {
+     "osm_id": "way/14632636",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.7359901,
+     "lon": -0.3475917,
+     "address": "Hull HU1 2TX",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 246.71
+    },
+    {
+     "osm_id": "node/10250700573",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.4089313,
+     "lon": -2.2195707,
+     "address": "Manchester M20 5PG",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 252.23
+    },
+    {
+     "osm_id": "way/445074891",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.6648775,
+     "lon": -1.5048081,
+     "address": "Calder Island Way Wakefield WF2 7AW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 255.25
+    },
+    {
+     "osm_id": "node/2753888491",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.4853209,
+     "lon": -2.2411104,
+     "address": "27 Withy Grove Manchester M4 2BS",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 260.07
+    },
+    {
+     "osm_id": "way/34241774",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.1748529,
+     "lon": -2.8958816,
+     "address": "Wrexham Road Chester CH4 7QP",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 260.61
+    },
+    {
+     "osm_id": "node/1885259751",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.8001647,
+     "lon": -1.5461011,
+     "address": "Unit 21 The Headrow Leeds LS1 8TL",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 270.26
+    },
+    {
+     "osm_id": "way/56248947",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.5971588,
+     "lon": -2.4239581,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 277.14
+    },
+    {
+     "osm_id": "way/56685507",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.8413205,
+     "lon": -1.7646244,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 279.91
+    },
+    {
+     "osm_id": "way/26177763",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.3796114,
+     "lon": -2.970229,
+     "address": "1 Riverside Drive Liverpool L3 4EN",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 280.44
+    },
+    {
+     "osm_id": "way/368255013",
+     "name": "Nuffield Health & Fitness",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.8775024,
+     "lon": -1.7237761,
+     "address": "Otley Road Leeds LS20 8LY",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 282.56
+    },
+    {
+     "osm_id": "way/366897303",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.9793622,
+     "lon": -1.5257483,
+     "address": "Hornbeam Park Harrogate HG2 8RE",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 288.53
+    },
+    {
+     "osm_id": "way/40266018",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 50.4193763,
+     "lon": -4.1153691,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 297.48
+    },
+    {
+     "osm_id": "node/364828027",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 50.3667101,
+     "lon": -4.1240773,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 300.57
+    },
+    {
+     "osm_id": "node/1039922319",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 53.7481558,
+     "lon": -2.6816246,
+     "address": "Preston PR5 4AW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 300.63
+    },
+    {
+     "osm_id": "way/139759658",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.0169961,
+     "lon": -1.5934079,
+     "address": "Gosforth Park Way Newcastle upon Tyne NE12 8ET",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 400.36
+    },
+    {
+     "osm_id": "way/41225040",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.9258236,
+     "lon": -3.2499776,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 530.33
+    },
+    {
+     "osm_id": "node/2083642938",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.9416001,
+     "lon": -3.2178221,
+     "address": "65-95 Dundee Street Edinburgh EH11 1AW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 531.13
+    },
+    {
+     "osm_id": "node/2115087066",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.9561442,
+     "lon": -3.1860876,
+     "address": "61/10 Leith Street Edinburgh EH1 3AU",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 531.84
+    },
+    {
+     "osm_id": "way/685225013",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.7518788,
+     "lon": -4.1627042,
+     "address": "Glasgow G75 0YW",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 539.38
+    },
+    {
+     "osm_id": "way/32720579",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.8081287,
+     "lon": -4.2822293,
+     "address": "Braidholm Road Glasgow G46 6ED",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 548.6
+    },
+    {
+     "osm_id": "way/27293807",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.8592323,
+     "lon": -4.2807363,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 553.41
+    },
+    {
+     "osm_id": "node/7640270564",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 55.8627796,
+     "lon": -4.285759,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 553.91
+    },
+    {
+     "osm_id": "way/378937852",
+     "name": "Nuffield Health Fitness & Wellbeing",
+     "brand": "Nuffield Health Fitness & Wellbeing",
+     "lat": 57.1417813,
+     "lon": -2.1115236,
+     "address": "Justice Mill Lane Aberdeen AB11 6EQ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 637.73
+    }
+   ],
+   "Virgin Active": [
+    {
+     "osm_id": "way/995577582",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.492961,
+     "lon": -0.2201124,
+     "address": "London W6 8BT",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 0.29
+    },
+    {
+     "osm_id": "way/48637953",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5230237,
+     "lon": -0.0893442,
+     "address": "Bunhill Row London EC1Y 8LP",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 0.75
+    },
+    {
+     "osm_id": "node/3596425484",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5117478,
+     "lon": -0.0903972,
+     "address": "97 Cannon Street London EC4N 5AE",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 0.88
+    },
+    {
+     "osm_id": "node/1163863417",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5097075,
+     "lon": -0.1216567,
+     "address": null,
+     "nearest_own_club": "Fitness First Tottenham Court Road",
+     "distance_km": 1.04
+    },
+    {
+     "osm_id": "node/3998968424",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5178552,
+     "lon": -0.0974636,
+     "address": "200 Aldersgate Street London EC1A 4HD",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 1.05
+    },
+    {
+     "osm_id": "way/96266869",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4845098,
+     "lon": -0.2085182,
+     "address": "Lillie Road London SW6 7ST",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 1.42
+    },
+    {
+     "osm_id": "way/331995896",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4622969,
+     "lon": -0.1902282,
+     "address": "Smugglers Way London SW18 1DG",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 1.42
+    },
+    {
+     "osm_id": "way/393384111",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4663379,
+     "lon": -0.141973,
+     "address": "4-20 North Street London SW4 0HG",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 1.95
+    },
+    {
+     "osm_id": "node/613090366",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.531151,
+     "lon": -0.104843,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 2.15
+    },
+    {
+     "osm_id": "way/875868242",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4863621,
+     "lon": -0.1811091,
+     "address": "188a Fulham Road London",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 2.55
+    },
+    {
+     "osm_id": "node/6551299187",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5025858,
+     "lon": -0.1896846,
+     "address": "17a Old Court Place London",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 2.64
+    },
+    {
+     "osm_id": "way/783820358",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5160543,
+     "lon": -0.211825,
+     "address": "119-131 Lancaster Road London W11 1QT",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 2.74
+    },
+    {
+     "osm_id": "node/3201102293",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5480259,
+     "lon": -0.181497,
+     "address": null,
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 3.53
+    },
+    {
+     "osm_id": "node/3390903172",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4948367,
+     "lon": -0.275695,
+     "address": "566 Chiswick High Road London W4 5YA",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 3.57
+    },
+    {
+     "osm_id": "way/190714751",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5064419,
+     "lon": -0.0286416,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 3.93
+    },
+    {
+     "osm_id": "node/3966547332",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4328685,
+     "lon": -0.1297903,
+     "address": "20 Ockley Road London SW16 1UB",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 4.49
+    },
+    {
+     "osm_id": "way/469568901",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4210004,
+     "lon": -0.2102387,
+     "address": "21-33 Worple Road London SW19 4JS",
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 5.58
+    },
+    {
+     "osm_id": "node/656508823",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5806798,
+     "lon": -0.1226819,
+     "address": null,
+     "nearest_own_club": "Fitness First Tottenham Court Road",
+     "distance_km": 7.06
+    },
+    {
+     "osm_id": "way/853255148",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4555816,
+     "lon": -0.3394984,
+     "address": "196 Whitton Road TW2 7BA",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 8.98
+    },
+    {
+     "osm_id": "way/793800865",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.6076744,
+     "lon": -0.2105338,
+     "address": "34 Langstone Way London NW7 1GU",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 10.4
+    },
+    {
+     "osm_id": "node/1813026668",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.3729405,
+     "lon": -0.1010837,
+     "address": null,
+     "nearest_own_club": "Fitness First Clapham Junction",
+     "distance_km": 11.25
+    },
+    {
+     "osm_id": "way/1241435723",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.6026397,
+     "lon": 0.0687847,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 14.07
+    },
+    {
+     "osm_id": "way/295810542",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.4153051,
+     "lon": -0.4135453,
+     "address": null,
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 15.68
+    },
+    {
+     "osm_id": "way/35958768",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.3970459,
+     "lon": 0.0385786,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 15.83
+    },
+    {
+     "osm_id": "node/12495744924",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.3824624,
+     "lon": 0.4813488,
+     "address": "Chariot Way Medway ME2 2SS",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 41.86
+    },
+    {
+     "osm_id": "way/90874369",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.7314064,
+     "lon": 0.4661256,
+     "address": "New Writtle Street Chelmsford CM2 0RR",
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 44.69
+    },
+    {
+     "osm_id": "way/614927405",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 51.5648363,
+     "lon": 0.5980126,
+     "address": null,
+     "nearest_own_club": "Fitness First Liverpool Street",
+     "distance_km": 47.34
+    },
+    {
+     "osm_id": "node/1284086618",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 52.1983018,
+     "lon": -0.89962,
+     "address": "91 Windingbrook Lane Northampton NN4 0EB",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 91.03
+    },
+    {
+     "osm_id": "way/159192021",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 52.241536,
+     "lon": -0.8346307,
+     "address": "Ferris Row Northampton NN3 9HX",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 92.72
+    },
+    {
+     "osm_id": "way/59136430",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 52.3728507,
+     "lon": -1.8004549,
+     "address": "Blythe Gate Solihull B90 8AT",
+     "nearest_own_club": "Fitness First Hammersmith",
+     "distance_km": 145.79
+    },
+    {
+     "osm_id": "way/30597005",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 52.9478891,
+     "lon": -1.1385733,
+     "address": "The Great Northern Close Nottingham NG2 3AE",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 172.24
+    },
+    {
+     "osm_id": "way/72711322",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 53.3591235,
+     "lon": -1.4769018,
+     "address": "300 Broadfield Road Sheffield S8 0XQ",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 223.18
+    },
+    {
+     "osm_id": "node/2808395300",
+     "name": "Virgin Active",
+     "brand": "Virgin Active",
+     "lat": 53.4701225,
+     "lon": -2.2941957,
+     "address": "The Lowry Outlet Mall Salford Quays",
+     "nearest_own_club": "Fitness First Baker Street",
+     "distance_km": 260.64
+    }
+   ]
+  },
+  "gyms_near_our_clubs": [
+   {
+    "osm_id": "node/9937549968",
+    "name": "JOHN REED Fitness",
+    "brand": "JOHN REED Fitness",
+    "lat": 51.5177653,
+    "lon": -0.0830452,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.05
+   },
+   {
+    "osm_id": "node/13278458042",
+    "name": "BXR",
+    "brand": null,
+    "lat": 51.5206786,
+    "lon": -0.1555892,
+    "address": "24 Paddington Street London W1U 5QY",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.09
+   },
+   {
+    "osm_id": "node/3794345288",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5175023,
+    "lon": -0.0807859,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.11
+   },
+   {
+    "osm_id": "node/4075042399",
+    "name": "1Rebel",
+    "brand": null,
+    "lat": 51.5185607,
+    "lon": -0.0836918,
+    "address": "1 Broadgate Circle London EC2M 2QS",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.12
+   },
+   {
+    "osm_id": "node/1153505407",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.4634134,
+    "lon": -0.1695235,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.13
+   },
+   {
+    "osm_id": "node/2545451248",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5185695,
+    "lon": -0.0840269,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.14
+   },
+   {
+    "osm_id": "node/4242497378",
+    "name": "Crossfit Shapesmiths",
+    "brand": null,
+    "lat": 51.4649224,
+    "lon": -0.1720427,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.15
+   },
+   {
+    "osm_id": "node/5781737562",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.4940301,
+    "lon": -0.2241035,
+    "address": "242 Shepherds Bush Road London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.15
+   },
+   {
+    "osm_id": "node/9000244948",
+    "name": "Boom Cycle",
+    "brand": null,
+    "lat": 51.4939111,
+    "lon": -0.2256365,
+    "address": "10 Hammersmith Grove",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.16
+   },
+   {
+    "osm_id": "node/3291326299",
+    "name": "12 Rounds Boxing",
+    "brand": null,
+    "lat": 51.4634268,
+    "lon": -0.1681911,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.17
+   },
+   {
+    "osm_id": "node/5781738554",
+    "name": "Surge",
+    "brand": null,
+    "lat": 51.4943546,
+    "lon": -0.2240935,
+    "address": "232 Shepherds Bush Road London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.18
+   },
+   {
+    "osm_id": "node/6347782775",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5186275,
+    "lon": -0.1561308,
+    "address": "55 Baker Street London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.19
+   },
+   {
+    "osm_id": "node/12977794585",
+    "name": "Third Space",
+    "brand": "Third Space",
+    "lat": 51.4636767,
+    "lon": -0.1672187,
+    "address": "Lavender Hill London SW11 1LN",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.21
+   },
+   {
+    "osm_id": "node/2239847818",
+    "name": "Hammersmith Fitness and Squash Centre",
+    "brand": null,
+    "lat": 51.4920482,
+    "lon": -0.2213562,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.22
+   },
+   {
+    "osm_id": "node/2914392296",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5169937,
+    "lon": -0.0787735,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.26
+   },
+   {
+    "osm_id": "node/3805599539",
+    "name": "Fitness First",
+    "brand": null,
+    "lat": 51.4949078,
+    "lon": -0.2260117,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.27
+   },
+   {
+    "osm_id": "node/1141415201",
+    "name": "Slim Jim's",
+    "brand": null,
+    "lat": 51.5197284,
+    "lon": -0.0850676,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.28
+   },
+   {
+    "osm_id": "node/9073463351",
+    "name": "Rathbone Boxing Club",
+    "brand": null,
+    "lat": 51.5171514,
+    "lon": -0.1345191,
+    "address": "7 Rathbone Square London W1T 1JW",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.29
+   },
+   {
+    "osm_id": "node/3164383488",
+    "name": "1Rebel",
+    "brand": null,
+    "lat": 51.5155349,
+    "lon": -0.0799354,
+    "address": "63 Saint Mary Axe London EC3A 8AA",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.31
+   },
+   {
+    "osm_id": "node/12535197787",
+    "name": "Lewis Paris Fitness London Soho",
+    "brand": null,
+    "lat": 51.5146326,
+    "lon": -0.1299899,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.31
+   },
+   {
+    "osm_id": "node/3018116500",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5150418,
+    "lon": -0.0829711,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.32
+   },
+   {
+    "osm_id": "node/3113203931",
+    "name": "Milo and the Bull",
+    "brand": null,
+    "lat": 51.4620289,
+    "lon": -0.1731152,
+    "address": "62-64 London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.35
+   },
+   {
+    "osm_id": "node/3906391799",
+    "name": "No1 Fitness",
+    "brand": null,
+    "lat": 51.515173,
+    "lon": -0.0797979,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.35
+   },
+   {
+    "osm_id": "node/2389890389",
+    "name": "Bannatyne's Health Club",
+    "brand": null,
+    "lat": 51.5148938,
+    "lon": -0.0841972,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.36
+   },
+   {
+    "osm_id": "node/9175934113",
+    "name": "Kinetic Fitness Studio",
+    "brand": null,
+    "lat": 51.4933806,
+    "lon": -0.2191914,
+    "address": "166 Hammersmith Road London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.36
+   },
+   {
+    "osm_id": "node/6310354579",
+    "name": "KOBOX",
+    "brand": null,
+    "lat": 51.5171172,
+    "lon": -0.1550416,
+    "address": "16 Baker Street London W1U 3HS",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.37
+   },
+   {
+    "osm_id": "node/6432269381",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5220326,
+    "lon": -0.1612214,
+    "address": "7 Balcombe Street London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.37
+   },
+   {
+    "osm_id": "node/9691926517",
+    "name": "Six3Nine",
+    "brand": null,
+    "lat": 51.5187911,
+    "lon": -0.0771705,
+    "address": "50 Gun Street London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.37
+   },
+   {
+    "osm_id": "node/12713513239",
+    "name": "Jetts Fitness",
+    "brand": "Jetts Fitness",
+    "lat": 51.4893739,
+    "lon": -0.2228025,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.38
+   },
+   {
+    "osm_id": "node/5238500310",
+    "name": "Light Centre Moorgate",
+    "brand": null,
+    "lat": 51.5174713,
+    "lon": -0.088064,
+    "address": "114 London Wall London EC2M 5QA",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.4
+   },
+   {
+    "osm_id": "node/1787108615",
+    "name": "Bank Health Club",
+    "brand": null,
+    "lat": 51.5147315,
+    "lon": -0.0853714,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.41
+   },
+   {
+    "osm_id": "node/2501842125",
+    "name": "Sadhana Yoga & Wellbeing",
+    "brand": null,
+    "lat": 51.4614942,
+    "lon": -0.173496,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.41
+   },
+   {
+    "osm_id": "node/7797133132",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5170257,
+    "lon": -0.0881139,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.41
+   },
+   {
+    "osm_id": "node/2404286605",
+    "name": "Total Chi Yoga",
+    "brand": null,
+    "lat": 51.5238603,
+    "lon": -0.1585197,
+    "address": "243 Baker Street London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.42
+   },
+   {
+    "osm_id": "node/3118263525",
+    "name": "Ignite PT",
+    "brand": null,
+    "lat": 51.5168845,
+    "lon": -0.076444,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.42
+   },
+   {
+    "osm_id": "node/6657733201",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5166653,
+    "lon": -0.0765148,
+    "address": "80 Middlesex Street London E1 7EZ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.42
+   },
+   {
+    "osm_id": "node/5974291419",
+    "name": "Psycle",
+    "brand": "Psycle",
+    "lat": 51.4608214,
+    "lon": -0.1680544,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.43
+   },
+   {
+    "osm_id": "node/2872682830",
+    "name": "Moss Pilates",
+    "brand": null,
+    "lat": 51.522104,
+    "lon": -0.0814186,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.47
+   },
+   {
+    "osm_id": "node/6463273305",
+    "name": "énergie Fitness",
+    "brand": "énergie Fitness",
+    "lat": 51.4687565,
+    "lon": -0.1711982,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.48
+   },
+   {
+    "osm_id": "node/10591139668",
+    "name": "Club Q",
+    "brand": null,
+    "lat": 51.5197317,
+    "lon": -0.136189,
+    "address": "59 Charlotte Street London W1T 4PE",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.48
+   },
+   {
+    "osm_id": "node/12387679929",
+    "name": "The Gym Group",
+    "brand": null,
+    "lat": 51.5162629,
+    "lon": -0.1369482,
+    "address": "120 Oxford Street London W1D 1LT",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.48
+   },
+   {
+    "osm_id": "node/3560950600",
+    "name": "Third Space",
+    "brand": "Third Space",
+    "lat": 51.5180851,
+    "lon": -0.1504361,
+    "address": "Bulstrode Place London W1U 2HU",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.5
+   },
+   {
+    "osm_id": "node/6130091905",
+    "name": "Fly",
+    "brand": null,
+    "lat": 51.5140289,
+    "lon": -0.0785507,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.5
+   },
+   {
+    "osm_id": "node/9668335572",
+    "name": "BLOK Shoreditch",
+    "brand": "BLOK",
+    "lat": 51.5223054,
+    "lon": -0.0805191,
+    "address": "2 Hearn Street London EC2A 3BR",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.51
+   },
+   {
+    "osm_id": "node/4136266962",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5145187,
+    "lon": -0.0771143,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.52
+   },
+   {
+    "osm_id": "node/9839377517",
+    "name": "Barry's",
+    "brand": "Barry's",
+    "lat": 51.521829,
+    "lon": -0.086735,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.53
+   },
+   {
+    "osm_id": "node/2793892926",
+    "name": "Stone",
+    "brand": null,
+    "lat": 51.5133316,
+    "lon": -0.0849272,
+    "address": "52 Cornhill London EC3V 3PD",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.54
+   },
+   {
+    "osm_id": "node/12866448574",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.5197188,
+    "lon": -0.0897096,
+    "address": "1 Ropemaker Street London EC2Y 9AW",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.55
+   },
+   {
+    "osm_id": "node/5176988421",
+    "name": "Pineapple studios",
+    "brand": null,
+    "lat": 51.5133603,
+    "lon": -0.125282,
+    "address": "16 Langley Street London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.57
+   },
+   {
+    "osm_id": "node/3688003145",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.5139386,
+    "lon": -0.1239584,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.58
+   },
+   {
+    "osm_id": "node/13398446150",
+    "name": "SoulCycle",
+    "brand": "SoulCycle",
+    "lat": 51.5148208,
+    "lon": -0.1376299,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.58
+   },
+   {
+    "osm_id": "node/3936798451",
+    "name": "Pure Ride",
+    "brand": null,
+    "lat": 51.5183566,
+    "lon": -0.0907248,
+    "address": "1 Fore Street Avenue London EC2Y 5EJ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.59
+   },
+   {
+    "osm_id": "node/9262590409",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.4929391,
+    "lon": -0.2329941,
+    "address": "150 King Street London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.6
+   },
+   {
+    "osm_id": "node/3574484193",
+    "name": "BoomCycle",
+    "brand": null,
+    "lat": 51.523275,
+    "lon": -0.0839792,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.61
+   },
+   {
+    "osm_id": "node/8984644539",
+    "name": "Body & Brain",
+    "brand": null,
+    "lat": 51.4977978,
+    "lon": -0.2275847,
+    "address": "101 Hammersmith Grove London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.61
+   },
+   {
+    "osm_id": "node/668842793",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5127141,
+    "lon": -0.078871,
+    "address": "106 Fenchurch Street London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.62
+   },
+   {
+    "osm_id": "node/1971691996",
+    "name": "The Vault Gym",
+    "brand": null,
+    "lat": 51.5235775,
+    "lon": -0.0839076,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.64
+   },
+   {
+    "osm_id": "node/6051545385",
+    "name": "Indaba Yoga",
+    "brand": null,
+    "lat": 51.5226537,
+    "lon": -0.1651164,
+    "address": "18 Hayes Place London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.64
+   },
+   {
+    "osm_id": "node/9425765774",
+    "name": "City Bouldering",
+    "brand": null,
+    "lat": 51.5143877,
+    "lon": -0.074975,
+    "address": "33 Aldgate High Street London EC3N 1AH",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.64
+   },
+   {
+    "osm_id": "node/13585201949",
+    "name": "The Courts at The Regent's Park",
+    "brand": null,
+    "lat": 51.5257366,
+    "lon": -0.1535773,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.64
+   },
+   {
+    "osm_id": "node/6237441238",
+    "name": "The Gym Group",
+    "brand": "The Gym Group",
+    "lat": 51.5143057,
+    "lon": -0.1570999,
+    "address": "21 Bryanston Street London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.67
+   },
+   {
+    "osm_id": "node/8961877834",
+    "name": "Pilates West",
+    "brand": null,
+    "lat": 51.4968469,
+    "lon": -0.231808,
+    "address": "53 Aldensley Road",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.69
+   },
+   {
+    "osm_id": "node/6131859757",
+    "name": "FS8",
+    "brand": null,
+    "lat": 51.5177202,
+    "lon": -0.1403916,
+    "address": "35 Great Titchfield Street London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.7
+   },
+   {
+    "osm_id": "node/9264275875",
+    "name": null,
+    "brand": null,
+    "lat": 51.4931673,
+    "lon": -0.2350123,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.74
+   },
+   {
+    "osm_id": "node/3061197975",
+    "name": "Cyclebeat",
+    "brand": null,
+    "lat": 51.5116036,
+    "lon": -0.0862991,
+    "address": "8 Lombard Court London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.75
+   },
+   {
+    "osm_id": "node/3248473472",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5112981,
+    "lon": -0.0846292,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.75
+   },
+   {
+    "osm_id": "node/9002975206",
+    "name": "Carlson Gracie London",
+    "brand": null,
+    "lat": 51.4993962,
+    "lon": -0.2265809,
+    "address": "89 Richford Street",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 0.76
+   },
+   {
+    "osm_id": "node/6853987982",
+    "name": "Gym On London",
+    "brand": null,
+    "lat": 51.4653771,
+    "lon": -0.1809992,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.77
+   },
+   {
+    "osm_id": "node/2659475642",
+    "name": "The Third Space",
+    "brand": null,
+    "lat": 51.5112598,
+    "lon": -0.1357352,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.78
+   },
+   {
+    "osm_id": "node/5568368536",
+    "name": "Triyoga",
+    "brand": null,
+    "lat": 51.5125528,
+    "lon": -0.1384983,
+    "address": "Kingly Court London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.78
+   },
+   {
+    "osm_id": "node/313181119",
+    "name": "Bannatyne Health Club",
+    "brand": "Bannatyne Health Club",
+    "lat": 51.5243645,
+    "lon": -0.1278575,
+    "address": "32 Woburn Place London WC1H 0JR",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.79
+   },
+   {
+    "osm_id": "node/703359261",
+    "name": "GymBox",
+    "brand": null,
+    "lat": 51.5178353,
+    "lon": -0.1189539,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.79
+   },
+   {
+    "osm_id": "node/1342092284",
+    "name": "Mayfair Health Club",
+    "brand": null,
+    "lat": 51.5131807,
+    "lon": -0.1560083,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.79
+   },
+   {
+    "osm_id": "node/6175947592",
+    "name": "Ten Health & Fitness",
+    "brand": null,
+    "lat": 51.5195758,
+    "lon": -0.141201,
+    "address": "83 Great Titchfield Street London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.79
+   },
+   {
+    "osm_id": "node/603109728",
+    "name": "Gymbox",
+    "brand": null,
+    "lat": 51.5105664,
+    "lon": -0.126758,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.8
+   },
+   {
+    "osm_id": "node/5522825722",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.523281,
+    "lon": -0.1372568,
+    "address": "114-115 Tottenham Court Road London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.81
+   },
+   {
+    "osm_id": "node/3637645297",
+    "name": "Rumble",
+    "brand": null,
+    "lat": 51.5205008,
+    "lon": -0.1411306,
+    "address": "101-105 New Cavendish Street London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.82
+   },
+   {
+    "osm_id": "node/12959669719",
+    "name": "Roar",
+    "brand": null,
+    "lat": 51.5104577,
+    "lon": -0.0831381,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.83
+   },
+   {
+    "osm_id": "node/694471389",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.511247,
+    "lon": -0.076255,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.85
+   },
+   {
+    "osm_id": "node/7926364492",
+    "name": "The Gym",
+    "brand": "The Gym",
+    "lat": 51.5242385,
+    "lon": -0.1248796,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.85
+   },
+   {
+    "osm_id": "node/375914246",
+    "name": null,
+    "brand": null,
+    "lat": 51.5254463,
+    "lon": -0.0794806,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.86
+   },
+   {
+    "osm_id": "node/2166009440",
+    "name": "Jubilee Hall Sports Centre",
+    "brand": null,
+    "lat": 51.5117865,
+    "lon": -0.121748,
+    "address": "30 The Piazza, Covent Garden London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.86
+   },
+   {
+    "osm_id": "node/3357923644",
+    "name": "Akasha",
+    "brand": null,
+    "lat": 51.5102398,
+    "lon": -0.1351327,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.86
+   },
+   {
+    "osm_id": "node/6886019847",
+    "name": "Third Space",
+    "brand": "Third Space",
+    "lat": 51.5102447,
+    "lon": -0.0805639,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.86
+   },
+   {
+    "osm_id": "node/7913450265",
+    "name": "TeamUCL Gym",
+    "brand": null,
+    "lat": 51.5250158,
+    "lon": -0.1326644,
+    "address": "15 Gordon Street London WC1H 0AH",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.86
+   },
+   {
+    "osm_id": "node/7045168819",
+    "name": "Psycle",
+    "brand": "Psycle",
+    "lat": 51.524115,
+    "lon": -0.0746818,
+    "address": "17-23 Whitby Street London E1 6JU",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.87
+   },
+   {
+    "osm_id": "node/3596425484",
+    "name": "Virgin Active",
+    "brand": "Virgin Active",
+    "lat": 51.5117478,
+    "lon": -0.0903972,
+    "address": "97 Cannon Street London EC4N 5AE",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.88
+   },
+   {
+    "osm_id": "node/7039559893",
+    "name": "Anytime Fitness",
+    "brand": "Anytime Fitness",
+    "lat": 51.5132981,
+    "lon": -0.0720186,
+    "address": "18 Alie Street London E1 8DE",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.88
+   },
+   {
+    "osm_id": "node/4349498409",
+    "name": "Instate Fitness",
+    "brand": null,
+    "lat": 51.4594125,
+    "lon": -0.1801929,
+    "address": "5 East Hill London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.9
+   },
+   {
+    "osm_id": "node/647872838",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5207604,
+    "lon": -0.1180955,
+    "address": "84 Theobalds Road London WC1X 8RW",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.92
+   },
+   {
+    "osm_id": "node/3553319192",
+    "name": "énergie Fitness",
+    "brand": "énergie Fitness",
+    "lat": 51.5246215,
+    "lon": -0.0903465,
+    "address": "60-63 Bunhill Row London EC1Y 8QD",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.93
+   },
+   {
+    "osm_id": "node/2536654186",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5099438,
+    "lon": -0.1238005,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.94
+   },
+   {
+    "osm_id": "node/12116834150",
+    "name": "Blockhouse Gym",
+    "brand": null,
+    "lat": 51.5149328,
+    "lon": -0.0696379,
+    "address": "30 Commercial Road London E1 1NL",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.94
+   },
+   {
+    "osm_id": "node/3741565027",
+    "name": "LA Fitness",
+    "brand": "LA Fitness",
+    "lat": 51.512723,
+    "lon": -0.1187295,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 0.95
+   },
+   {
+    "osm_id": "node/6202676454",
+    "name": "Barrecore",
+    "brand": null,
+    "lat": 51.5168137,
+    "lon": -0.1441928,
+    "address": "6 Cavendish Square London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 0.95
+   },
+   {
+    "osm_id": "node/7066813085",
+    "name": "Triyoga",
+    "brand": null,
+    "lat": 51.5239673,
+    "lon": -0.0725149,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.96
+   },
+   {
+    "osm_id": "node/5909919562",
+    "name": "Gymbox",
+    "brand": null,
+    "lat": 51.5104221,
+    "lon": -0.0897478,
+    "address": "1 Suffolk Lane London EC4R 0AT",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 0.98
+   },
+   {
+    "osm_id": "node/6294979790",
+    "name": "Fitness Space",
+    "brand": null,
+    "lat": 51.4634747,
+    "lon": -0.184244,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 0.99
+   },
+   {
+    "osm_id": "node/6239950533",
+    "name": "12 x 3",
+    "brand": null,
+    "lat": 51.5145239,
+    "lon": -0.068937,
+    "address": "76 Alie Street London E1 8PZ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.0
+   },
+   {
+    "osm_id": "node/6275321796",
+    "name": "powerhousefitness.co.uk",
+    "brand": null,
+    "lat": 51.5089528,
+    "lon": -0.1253624,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.0
+   },
+   {
+    "osm_id": "node/6439702225",
+    "name": "King's Sport Strand Gym",
+    "brand": null,
+    "lat": 51.5129023,
+    "lon": -0.1177153,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.0
+   },
+   {
+    "osm_id": "node/6329186031",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5084779,
+    "lon": -0.1333071,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.01
+   },
+   {
+    "osm_id": "node/3813667443",
+    "name": "Gym Box",
+    "brand": null,
+    "lat": 51.5256515,
+    "lon": -0.0900473,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.02
+   },
+   {
+    "osm_id": "node/4708833489",
+    "name": "Bootcamp Pilates",
+    "brand": null,
+    "lat": 51.5092527,
+    "lon": -0.1235852,
+    "address": "55 Strand London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.02
+   },
+   {
+    "osm_id": "node/6851076768",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5186724,
+    "lon": -0.1711586,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.02
+   },
+   {
+    "osm_id": "node/10699062833",
+    "name": "Anytime Fitness",
+    "brand": "Anytime Fitness",
+    "lat": 51.5259966,
+    "lon": -0.1353049,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.02
+   },
+   {
+    "osm_id": "node/1163863417",
+    "name": "Virgin Active",
+    "brand": "Virgin Active",
+    "lat": 51.5097075,
+    "lon": -0.1216567,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.04
+   },
+   {
+    "osm_id": "node/8767574602",
+    "name": "Ice Fitness",
+    "brand": null,
+    "lat": 51.4589106,
+    "lon": -0.1819749,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.04
+   },
+   {
+    "osm_id": "node/3998968424",
+    "name": "Virgin Active",
+    "brand": "Virgin Active",
+    "lat": 51.5178552,
+    "lon": -0.0974636,
+    "address": "200 Aldersgate Street London EC1A 4HD",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.05
+   },
+   {
+    "osm_id": "node/13319195501",
+    "name": "Hybrid Fitness",
+    "brand": null,
+    "lat": 51.5118605,
+    "lon": -0.0706128,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.05
+   },
+   {
+    "osm_id": "node/12051908306",
+    "name": "Barry's",
+    "brand": "Barry's",
+    "lat": 51.5270237,
+    "lon": -0.1309938,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.07
+   },
+   {
+    "osm_id": "node/1763582361",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5105644,
+    "lon": -0.0925666,
+    "address": "72 Upper Thames Street London EC4R 3TA",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.08
+   },
+   {
+    "osm_id": "node/907778096",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.523972,
+    "lon": -0.1181935,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.11
+   },
+   {
+    "osm_id": "node/1713257252",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.5096752,
+    "lon": -0.0914835,
+    "address": "Cousin Lane London EC4R 3XJ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.11
+   },
+   {
+    "osm_id": "node/4369519196",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5172018,
+    "lon": -0.0983287,
+    "address": "20 Little Britain London EC1A 7DH",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.11
+   },
+   {
+    "osm_id": "node/5764936268",
+    "name": "The Bath & Racquets Club",
+    "brand": null,
+    "lat": 51.5125258,
+    "lon": -0.1466354,
+    "address": "49 Brook's Mews London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.11
+   },
+   {
+    "osm_id": "node/11891517807",
+    "name": "Urban Fitness",
+    "brand": null,
+    "lat": 51.5120408,
+    "lon": -0.069059,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.12
+   },
+   {
+    "osm_id": "node/10552592178",
+    "name": "EustonWall Climbing Centre",
+    "brand": null,
+    "lat": 51.5246047,
+    "lon": -0.1418928,
+    "address": "350 Euston Road London NW1 3AX",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.13
+   },
+   {
+    "osm_id": "node/6312805696",
+    "name": "Ringtone Boxing Gym",
+    "brand": null,
+    "lat": 51.5265639,
+    "lon": -0.1377388,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.14
+   },
+   {
+    "osm_id": "node/13288288932",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5176682,
+    "lon": -0.0651106,
+    "address": "100 Whitechapel Road London E1 1JQ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.19
+   },
+   {
+    "osm_id": "node/11222195958",
+    "name": "The Gym",
+    "brand": "The Gym",
+    "lat": 51.5071662,
+    "lon": -0.1249177,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.2
+   },
+   {
+    "osm_id": "node/1268874626",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5117385,
+    "lon": -0.0970366,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.23
+   },
+   {
+    "osm_id": "node/9666493017",
+    "name": "MMA LDN",
+    "brand": null,
+    "lat": 51.5146479,
+    "lon": -0.065321,
+    "address": "88 Commercial Road London E1 1NU",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.23
+   },
+   {
+    "osm_id": "node/12894319883",
+    "name": "Rebel Studio",
+    "brand": null,
+    "lat": 51.5276935,
+    "lon": -0.1233734,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.24
+   },
+   {
+    "osm_id": "node/4209480093",
+    "name": "Ten",
+    "brand": null,
+    "lat": 51.5070642,
+    "lon": -0.1373699,
+    "address": "6 Duke Street St James's London",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.25
+   },
+   {
+    "osm_id": "node/610465198",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.5036024,
+    "lon": -0.2190954,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.26
+   },
+   {
+    "osm_id": "node/1973260534",
+    "name": "Bikram Yoga",
+    "brand": null,
+    "lat": 51.5286593,
+    "lon": -0.0882054,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.26
+   },
+   {
+    "osm_id": "node/4786587338",
+    "name": "Four Sides",
+    "brand": null,
+    "lat": 51.4538804,
+    "lon": -0.1637282,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.26
+   },
+   {
+    "osm_id": "node/1112205147",
+    "name": "Union Station Yoga",
+    "brand": null,
+    "lat": 51.4663533,
+    "lon": -0.1515399,
+    "address": "18 Lavender Hill London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.3
+   },
+   {
+    "osm_id": "node/3067516496",
+    "name": "Semokwan Hapkido Academy",
+    "brand": null,
+    "lat": 51.4553829,
+    "lon": -0.1577104,
+    "address": "155D Broomwood Road London SW11 6JX",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.32
+   },
+   {
+    "osm_id": "node/12546298501",
+    "name": "G Happy Feet Studios",
+    "brand": null,
+    "lat": 51.5269334,
+    "lon": -0.0946685,
+    "address": "19-23 Ironmonger Row London EC1V 3QW",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.32
+   },
+   {
+    "osm_id": "node/13844129087",
+    "name": "Tara Yoga Centre",
+    "brand": null,
+    "lat": 51.5271079,
+    "lon": -0.0946472,
+    "address": "25-31 Ironmonger Row London EC1V 3QW",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.33
+   },
+   {
+    "osm_id": "node/3067504433",
+    "name": "Semokwan Hapkido Academy",
+    "brand": null,
+    "lat": 51.4616328,
+    "lon": -0.1512635,
+    "address": "58 Clapham Common North Side London SW4 9SA",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.34
+   },
+   {
+    "osm_id": "node/6567355369",
+    "name": "Secret Boxing",
+    "brand": null,
+    "lat": 51.5066476,
+    "lon": -0.0890598,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.34
+   },
+   {
+    "osm_id": "node/12778593844",
+    "name": "Labs fitness",
+    "brand": null,
+    "lat": 51.5296442,
+    "lon": -0.0754799,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.39
+   },
+   {
+    "osm_id": "node/391481394",
+    "name": "Third Space",
+    "brand": "Third Space",
+    "lat": 51.5052345,
+    "lon": -0.0797405,
+    "address": "2b More London Riverside London SE1 2AP",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.42
+   },
+   {
+    "osm_id": "node/7907971131",
+    "name": "New City Fitness",
+    "brand": null,
+    "lat": 51.5305001,
+    "lon": -0.0786098,
+    "address": "Redvers Street London N1 6NE",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.42
+   },
+   {
+    "osm_id": "node/12925848309",
+    "name": "Reformer LDN",
+    "brand": null,
+    "lat": 51.5302009,
+    "lon": -0.0751204,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.46
+   },
+   {
+    "osm_id": "node/13092455201",
+    "name": "PlayFit Sports Club",
+    "brand": null,
+    "lat": 51.4814469,
+    "lon": -0.2132288,
+    "address": "Munster Road London SW6 6BP",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.47
+   },
+   {
+    "osm_id": "node/13339181844",
+    "name": "Psycle",
+    "brand": "Psycle",
+    "lat": 51.5051349,
+    "lon": -0.0879812,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.47
+   },
+   {
+    "osm_id": "node/338472540",
+    "name": "Gymbox",
+    "brand": null,
+    "lat": 51.5188678,
+    "lon": -0.1088338,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.49
+   },
+   {
+    "osm_id": "node/10775457928",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5305089,
+    "lon": -0.0747932,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.5
+   },
+   {
+    "osm_id": "node/8348478721",
+    "name": "London Dock - Residents Spa & Gym",
+    "brand": null,
+    "lat": 51.5083341,
+    "lon": -0.0666892,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.52
+   },
+   {
+    "osm_id": "node/11860971881",
+    "name": "Ultimate Performance",
+    "brand": null,
+    "lat": 51.5150179,
+    "lon": -0.1768893,
+    "address": "50 Eastbourne Terrace London W2 6LG",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.52
+   },
+   {
+    "osm_id": "node/278317169",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.507782,
+    "lon": -0.0671797,
+    "address": "Thomas More Square London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.54
+   },
+   {
+    "osm_id": "node/4463292091",
+    "name": "Ozone Health and Fitness Club",
+    "brand": null,
+    "lat": 51.5263153,
+    "lon": -0.1133519,
+    "address": "London WC1X 9HX",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.54
+   },
+   {
+    "osm_id": "node/6525008515",
+    "name": null,
+    "brand": null,
+    "lat": 51.5287271,
+    "lon": -0.1744813,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.55
+   },
+   {
+    "osm_id": "node/12219079547",
+    "name": "The Font Climbing Centre",
+    "brand": null,
+    "lat": 51.5072859,
+    "lon": -0.0968234,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.55
+   },
+   {
+    "osm_id": "node/3338325138",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.4568844,
+    "lon": -0.1888841,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.56
+   },
+   {
+    "osm_id": "node/11042290163",
+    "name": "The Font Borough",
+    "brand": null,
+    "lat": 51.5071808,
+    "lon": -0.0971764,
+    "address": "185 Park Street London SE1 9BL",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.57
+   },
+   {
+    "osm_id": "node/6854650614",
+    "name": "12x3 Gym",
+    "brand": null,
+    "lat": 51.5192567,
+    "lon": -0.1794621,
+    "address": "19 Sheldon Square London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.58
+   },
+   {
+    "osm_id": "node/565433943",
+    "name": "Tokei Centre",
+    "brand": null,
+    "lat": 51.5035613,
+    "lon": -0.0814852,
+    "address": "28 Magdalen Street London SE1 2EN",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.6
+   },
+   {
+    "osm_id": "node/13231889581",
+    "name": "E1 CrossFit",
+    "brand": null,
+    "lat": 51.5083007,
+    "lon": -0.0651097,
+    "address": "Pennington Quay Walk London E1W 2BT",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.6
+   },
+   {
+    "osm_id": "node/521689965",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.5191877,
+    "lon": -0.1798674,
+    "address": "2 Sheldon Square London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.61
+   },
+   {
+    "osm_id": "node/3953705945",
+    "name": "The Fort Gym",
+    "brand": null,
+    "lat": 51.4656068,
+    "lon": -0.1932395,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.61
+   },
+   {
+    "osm_id": "node/4471699488",
+    "name": "Organic Health & Fitness",
+    "brand": null,
+    "lat": 51.467024,
+    "lon": -0.1466444,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.64
+   },
+   {
+    "osm_id": "node/1387329578",
+    "name": "Mulberry Leisure Centre",
+    "brand": null,
+    "lat": 51.5142183,
+    "lon": -0.0592578,
+    "address": "Richard Street London E1 2JP",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.65
+   },
+   {
+    "osm_id": "node/10613246047",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5222629,
+    "lon": -0.1076707,
+    "address": "122 Clerkenwell Road London EC1R 5DL",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.66
+   },
+   {
+    "osm_id": "node/6512139188",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5050713,
+    "lon": -0.0948914,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.67
+   },
+   {
+    "osm_id": "node/11277135069",
+    "name": "Grapple Collective",
+    "brand": null,
+    "lat": 51.5116337,
+    "lon": -0.0602566,
+    "address": "117 Chapman Street London E1 2PH",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.68
+   },
+   {
+    "osm_id": "node/12650045330",
+    "name": "BFT Hackney",
+    "brand": null,
+    "lat": 51.5309197,
+    "lon": -0.0698445,
+    "address": "246-252 Hackney Road London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.68
+   },
+   {
+    "osm_id": "node/6050567759",
+    "name": "King’s Sport & Wellness London Bridge",
+    "brand": null,
+    "lat": 51.5033729,
+    "lon": -0.0912036,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.73
+   },
+   {
+    "osm_id": "node/6535716245",
+    "name": "1 Rebel",
+    "brand": null,
+    "lat": 51.5333114,
+    "lon": -0.1706833,
+    "address": "47-49 St John's Wood High Street London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 1.74
+   },
+   {
+    "osm_id": "node/6655174066",
+    "name": "Body Society",
+    "brand": null,
+    "lat": 51.4724709,
+    "lon": -0.1917741,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.75
+   },
+   {
+    "osm_id": "node/6959414327",
+    "name": "Flow 63",
+    "brand": null,
+    "lat": 51.4564578,
+    "lon": -0.1919277,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.76
+   },
+   {
+    "osm_id": "node/6594761645",
+    "name": "Anytime Fitness",
+    "brand": "Anytime Fitness",
+    "lat": 51.531309,
+    "lon": -0.1175922,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.78
+   },
+   {
+    "osm_id": "node/4404170394",
+    "name": "Easygym",
+    "brand": null,
+    "lat": 51.4842829,
+    "lon": -0.2018004,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.82
+   },
+   {
+    "osm_id": "node/4783250982",
+    "name": "Orange Theory Fitness",
+    "brand": null,
+    "lat": 51.4562521,
+    "lon": -0.1929056,
+    "address": "8 Garratt Lane London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.83
+   },
+   {
+    "osm_id": "node/11696786792",
+    "name": "The Gym",
+    "brand": "The Gym",
+    "lat": 51.4558097,
+    "lon": -0.1928472,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.85
+   },
+   {
+    "osm_id": "node/11782137951",
+    "name": "Strongher Space",
+    "brand": null,
+    "lat": 51.5238736,
+    "lon": -0.0574012,
+    "address": "Cudworth Street London E1 5QU",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.85
+   },
+   {
+    "osm_id": "node/915410138",
+    "name": "Kinetic",
+    "brand": null,
+    "lat": 51.5055035,
+    "lon": -0.1114232,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 1.86
+   },
+   {
+    "osm_id": "node/11684945192",
+    "name": "Gym Nation",
+    "brand": null,
+    "lat": 51.5013747,
+    "lon": -0.078627,
+    "address": "26 Druid Street",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.86
+   },
+   {
+    "osm_id": "node/8657999895",
+    "name": "Equilibrium",
+    "brand": null,
+    "lat": 51.5086826,
+    "lon": -0.2159125,
+    "address": "27 St. Anns Road",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.87
+   },
+   {
+    "osm_id": "node/11343785902",
+    "name": "City Bouldering",
+    "brand": null,
+    "lat": 51.5094954,
+    "lon": -0.2229755,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.87
+   },
+   {
+    "osm_id": "node/1125067012",
+    "name": "The Circle Gym and Spa",
+    "brand": null,
+    "lat": 51.5015386,
+    "lon": -0.0745587,
+    "address": "Queen Elizabeth Street London SE1 2JE",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.9
+   },
+   {
+    "osm_id": "node/3387400187",
+    "name": "Riverside Quarter Leisure Centre",
+    "brand": null,
+    "lat": 51.4626065,
+    "lon": -0.1973779,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.91
+   },
+   {
+    "osm_id": "node/10123953313",
+    "name": null,
+    "brand": null,
+    "lat": 51.4668352,
+    "lon": -0.1426245,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.91
+   },
+   {
+    "osm_id": "node/2175185019",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.4563514,
+    "lon": -0.1947233,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 1.94
+   },
+   {
+    "osm_id": "node/7440148114",
+    "name": "Core Collective",
+    "brand": null,
+    "lat": 51.4995257,
+    "lon": -0.198568,
+    "address": "45 Phillimore Walk",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 1.94
+   },
+   {
+    "osm_id": "node/11216370940",
+    "name": "Ride Reshape",
+    "brand": null,
+    "lat": 51.5079937,
+    "lon": -0.1057608,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.96
+   },
+   {
+    "osm_id": "node/8655443525",
+    "name": "The Gym",
+    "brand": "The Gym",
+    "lat": 51.5300613,
+    "lon": -0.1030614,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.97
+   },
+   {
+    "osm_id": "node/13962232388",
+    "name": "3Tribes Borough: Hot Yoga, Barre & Fitness Studio",
+    "brand": null,
+    "lat": 51.5015935,
+    "lon": -0.0938865,
+    "address": "4 Marshalsea Road London SE1 1LH",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.98
+   },
+   {
+    "osm_id": "node/833378493",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5008338,
+    "lon": -0.09079,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 1.99
+   },
+   {
+    "osm_id": "node/786653595",
+    "name": "The Ring",
+    "brand": null,
+    "lat": 51.5039916,
+    "lon": -0.1011392,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.02
+   },
+   {
+    "osm_id": "node/4324479962",
+    "name": "The Sporting Club",
+    "brand": null,
+    "lat": 51.5088981,
+    "lon": -0.0569642,
+    "address": "9 Sovereign Close London E1W 3HW",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.02
+   },
+   {
+    "osm_id": "node/7149327946",
+    "name": "Fitness4Less",
+    "brand": null,
+    "lat": 51.5041322,
+    "lon": -0.1013081,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.02
+   },
+   {
+    "osm_id": "node/7694485211",
+    "name": "Glove Up",
+    "brand": null,
+    "lat": 51.4568811,
+    "lon": -0.1965701,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.03
+   },
+   {
+    "osm_id": "node/11003490389",
+    "name": "YogaHaven",
+    "brand": null,
+    "lat": 51.4635716,
+    "lon": -0.1405327,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.04
+   },
+   {
+    "osm_id": "node/13906077701",
+    "name": "Pure Gym",
+    "brand": null,
+    "lat": 51.5251854,
+    "lon": -0.0552664,
+    "address": "229 Cambridge Heath Road London E2 0EL",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.04
+   },
+   {
+    "osm_id": "node/12518796751",
+    "name": "Milo and the Bull",
+    "brand": null,
+    "lat": 51.499405,
+    "lon": -0.0814154,
+    "address": "168-170 Bermondsey Street London SE1 3TQ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.06
+   },
+   {
+    "osm_id": "node/6710448480",
+    "name": "Little Venice Pilates & Physiotherapy",
+    "brand": null,
+    "lat": 51.5231372,
+    "lon": -0.1862359,
+    "address": "28 Bristol Gardens London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.07
+   },
+   {
+    "osm_id": "node/12926523387",
+    "name": "Hitio",
+    "brand": null,
+    "lat": 51.5360665,
+    "lon": -0.0889063,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.07
+   },
+   {
+    "osm_id": "node/3063724430",
+    "name": "Anytime Fitness",
+    "brand": null,
+    "lat": 51.5314141,
+    "lon": -0.1031605,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.08
+   },
+   {
+    "osm_id": "node/8864517625",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5038647,
+    "lon": -0.1095356,
+    "address": "11-15 Brad Street London SE1 8TG",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.08
+   },
+   {
+    "osm_id": "node/5392665527",
+    "name": "BethWall Climbing Centre",
+    "brand": null,
+    "lat": 51.5277422,
+    "lon": -0.056381,
+    "address": "Hollybush Place London E2 9QX",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.1
+   },
+   {
+    "osm_id": "node/11807300227",
+    "name": "énergie Fitness",
+    "brand": "énergie Fitness",
+    "lat": 51.5022504,
+    "lon": -0.0996439,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.11
+   },
+   {
+    "osm_id": "node/9550710673",
+    "name": "Flying Fantastic",
+    "brand": null,
+    "lat": 51.5029815,
+    "lon": -0.1016878,
+    "address": "Old Union Yard Arches London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.13
+   },
+   {
+    "osm_id": "node/11807278243",
+    "name": "Train Fitness",
+    "brand": null,
+    "lat": 51.5022185,
+    "lon": -0.1002482,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.14
+   },
+   {
+    "osm_id": "node/613090366",
+    "name": "Virgin Active",
+    "brand": "Virgin Active",
+    "lat": 51.531151,
+    "lon": -0.104843,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.15
+   },
+   {
+    "osm_id": "node/11276003222",
+    "name": "Ten",
+    "brand": null,
+    "lat": 51.5367131,
+    "lon": -0.1277343,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.15
+   },
+   {
+    "osm_id": "node/6984318399",
+    "name": "1Rebel Bayswater",
+    "brand": null,
+    "lat": 51.5166517,
+    "lon": -0.1875716,
+    "address": "34 Porchester Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.17
+   },
+   {
+    "osm_id": "node/5018732921",
+    "name": "House of Vans London",
+    "brand": null,
+    "lat": 51.5005801,
+    "lon": -0.1142097,
+    "address": "Arches 228-232 Station Approach London SE1 8SW",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.18
+   },
+   {
+    "osm_id": "node/7778679915",
+    "name": "Soho Gyms",
+    "brand": null,
+    "lat": 51.4918162,
+    "lon": -0.1926741,
+    "address": "254 Earl's Court Road London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.19
+   },
+   {
+    "osm_id": "node/12510416377",
+    "name": "The Kensington Studio",
+    "brand": null,
+    "lat": 51.4965688,
+    "lon": -0.1932562,
+    "address": "24a Radley Mews London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.19
+   },
+   {
+    "osm_id": "node/3931711561",
+    "name": "Frame",
+    "brand": "Frame",
+    "lat": 51.5367464,
+    "lon": -0.1225604,
+    "address": "1 York Way London N1C 4AS",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.22
+   },
+   {
+    "osm_id": "node/11780254990",
+    "name": "The Courts at Hyde Park",
+    "brand": null,
+    "lat": 51.5031988,
+    "lon": -0.1732562,
+    "address": "South Carriage Drive London W2 2UH",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.22
+   },
+   {
+    "osm_id": "node/11850660877",
+    "name": "Yoga Base",
+    "brand": null,
+    "lat": 51.5387111,
+    "lon": -0.1439606,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.23
+   },
+   {
+    "osm_id": "node/1354725624",
+    "name": "Get Set Swim",
+    "brand": null,
+    "lat": 51.4808137,
+    "lon": -0.1982528,
+    "address": "1-7 Jerdan Place London SW6 1DF",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.24
+   },
+   {
+    "osm_id": "node/3055907731",
+    "name": "Semokwan Hapkido Academy",
+    "brand": null,
+    "lat": 51.4549318,
+    "lon": -0.1415387,
+    "address": "60 Hambalt Road London SW4 9EH",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.24
+   },
+   {
+    "osm_id": "node/6981977193",
+    "name": null,
+    "brand": null,
+    "lat": 51.5184608,
+    "lon": -0.1888936,
+    "address": "64 Porchester Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.24
+   },
+   {
+    "osm_id": "node/7985579711",
+    "name": "Triyoga",
+    "brand": null,
+    "lat": 51.4842213,
+    "lon": -0.1766136,
+    "address": "372 King's Road",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.24
+   },
+   {
+    "osm_id": "node/8233143309",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.4842525,
+    "lon": -0.1765485,
+    "address": "370 King's Road London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.24
+   },
+   {
+    "osm_id": "node/8008319569",
+    "name": "Core Collective",
+    "brand": null,
+    "lat": 51.5001974,
+    "lon": -0.1605511,
+    "address": "23 Pavilion Road",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.25
+   },
+   {
+    "osm_id": "node/4609843231",
+    "name": "Triyoga",
+    "brand": null,
+    "lat": 51.5397174,
+    "lon": -0.1470397,
+    "address": "57 Jamestown Road London NW1 7DB",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.26
+   },
+   {
+    "osm_id": "node/7783327600",
+    "name": "FitStudioZ",
+    "brand": null,
+    "lat": 51.4889037,
+    "lon": -0.1922908,
+    "address": "280 Old Brompton Road London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.26
+   },
+   {
+    "osm_id": "node/3455988456",
+    "name": "Fitness First",
+    "brand": "Fitness First",
+    "lat": 51.4980338,
+    "lon": -0.1404543,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.27
+   },
+   {
+    "osm_id": "node/325005689",
+    "name": "London Lifestyle Academy",
+    "brand": null,
+    "lat": 51.4899057,
+    "lon": -0.191566,
+    "address": "Earls Court Square London SW5 9DJ",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.29
+   },
+   {
+    "osm_id": "node/1126719638",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.48056,
+    "lon": -0.1976078,
+    "address": "25 Jerdan Place London SW6 1BE",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.29
+   },
+   {
+    "osm_id": "node/12638611673",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5390673,
+    "lon": -0.1429555,
+    "address": "193-199 Camden High Street London NW1 7BT",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.29
+   },
+   {
+    "osm_id": "node/7724417500",
+    "name": "SpinWorks",
+    "brand": null,
+    "lat": 51.4488639,
+    "lon": -0.1482613,
+    "address": "38 Balham Hill London SW12 9EL",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.3
+   },
+   {
+    "osm_id": "node/8191636267",
+    "name": "Duo Chelsea",
+    "brand": null,
+    "lat": 51.4829834,
+    "lon": -0.1852788,
+    "address": "2a Gunter Grove London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.31
+   },
+   {
+    "osm_id": "node/12085021758",
+    "name": "Kings Cross Fitness",
+    "brand": "Better Health UK",
+    "lat": 51.5377263,
+    "lon": -0.1233012,
+    "address": "1 Harrier Street London N1C 4EP",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.31
+   },
+   {
+    "osm_id": "node/2625944868",
+    "name": "Bannatynes Gym",
+    "brand": null,
+    "lat": 51.496708,
+    "lon": -0.1257432,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.32
+   },
+   {
+    "osm_id": "node/7368055523",
+    "name": "Rocks Lane Chiswick",
+    "brand": null,
+    "lat": 51.4947972,
+    "lon": -0.2578367,
+    "address": "60 Chiswick Common Road London W4 1RZ",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.33
+   },
+   {
+    "osm_id": "node/10884002640",
+    "name": "Gymbox Victoria",
+    "brand": null,
+    "lat": 51.4968508,
+    "lon": -0.1371732,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.33
+   },
+   {
+    "osm_id": "node/13234001076",
+    "name": "Pilates HQ",
+    "brand": null,
+    "lat": 51.5325228,
+    "lon": -0.1064219,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.33
+   },
+   {
+    "osm_id": "node/2677429698",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.49757,
+    "lon": -0.1417952,
+    "address": "Bressenden Place London SW1E 5BH",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.34
+   },
+   {
+    "osm_id": "node/3191230457",
+    "name": "Winnington Bowls Club",
+    "brand": null,
+    "lat": 51.4720521,
+    "lon": -0.2175524,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.34
+   },
+   {
+    "osm_id": "node/7166236281",
+    "name": "Studio Lagree",
+    "brand": null,
+    "lat": 51.5137596,
+    "lon": -0.2266573,
+    "address": "195 Wood Lane London W12 7TQ",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.35
+   },
+   {
+    "osm_id": "node/255470133",
+    "name": "Queens Skate Dine Bowl",
+    "brand": null,
+    "lat": 51.5108972,
+    "lon": -0.1873387,
+    "address": "17 Queensway London W2 4QP",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.36
+   },
+   {
+    "osm_id": "node/4085695498",
+    "name": "The Sporting Club",
+    "brand": null,
+    "lat": 51.5059419,
+    "lon": -0.0541688,
+    "address": "69 Garnet Street London E1W 3QS",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.36
+   },
+   {
+    "osm_id": "node/7166236280",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5138669,
+    "lon": -0.2264505,
+    "address": "195 Wood Lane London W12 7TQ",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.36
+   },
+   {
+    "osm_id": "node/954341446",
+    "name": "Barry's",
+    "brand": "Barry's",
+    "lat": 51.5107279,
+    "lon": -0.187294,
+    "address": "9a Queensway London W2 4QJ",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.37
+   },
+   {
+    "osm_id": "node/7099547593",
+    "name": "Psycle",
+    "brand": "Psycle",
+    "lat": 51.5155014,
+    "lon": -0.190089,
+    "address": "37-41 Westbourne Grove London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.37
+   },
+   {
+    "osm_id": "node/1714130114",
+    "name": null,
+    "brand": null,
+    "lat": 51.4965953,
+    "lon": -0.0861615,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.38
+   },
+   {
+    "osm_id": "node/7803892709",
+    "name": "Fitness4Less",
+    "brand": null,
+    "lat": 51.5327411,
+    "lon": -0.0575637,
+    "address": "Cambridge Heath Road London E2 9BY",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.38
+   },
+   {
+    "osm_id": "node/7166236278",
+    "name": "The Gym",
+    "brand": "The Gym",
+    "lat": 51.5140924,
+    "lon": -0.2277275,
+    "address": "195 Wood Lane London W12 7FQ",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.39
+   },
+   {
+    "osm_id": "node/5122683407",
+    "name": "Train Yard",
+    "brand": null,
+    "lat": 51.5064297,
+    "lon": -0.0528365,
+    "address": "70 Wapping Wall London E1W 3SS",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.4
+   },
+   {
+    "osm_id": "node/8175548220",
+    "name": "Urban Fitness",
+    "brand": null,
+    "lat": 51.4840458,
+    "lon": -0.1846797,
+    "address": "270 Fulham Road London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.4
+   },
+   {
+    "osm_id": "node/9031636962",
+    "name": "Climbing District",
+    "brand": null,
+    "lat": 51.5346509,
+    "lon": -0.0603288,
+    "address": "Andrews Road London E8 4FX",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.4
+   },
+   {
+    "osm_id": "node/5080944390",
+    "name": "Boxing Gym",
+    "brand": null,
+    "lat": 51.4988049,
+    "lon": -0.098711,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.41
+   },
+   {
+    "osm_id": "node/6612096689",
+    "name": "Pilates Tonic",
+    "brand": null,
+    "lat": 51.5350926,
+    "lon": -0.1823254,
+    "address": "22a Blenheim Terrace London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.42
+   },
+   {
+    "osm_id": "node/1804973485",
+    "name": "Clapham Leisure Centre",
+    "brand": null,
+    "lat": 51.464146,
+    "lon": -0.1347851,
+    "address": "141 Clapham Manor Street London SW4 6DB",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.44
+   },
+   {
+    "osm_id": "node/7106363242",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5129341,
+    "lon": -0.1900803,
+    "address": "6 Moscow Place London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.45
+   },
+   {
+    "osm_id": "node/10691488447",
+    "name": "Waking Dreams",
+    "brand": null,
+    "lat": 51.5357657,
+    "lon": -0.0615983,
+    "address": "Ada Street London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.45
+   },
+   {
+    "osm_id": "node/7631034619",
+    "name": "Equinox Kensington",
+    "brand": null,
+    "lat": 51.5011463,
+    "lon": -0.1914769,
+    "address": "99 Kensington High Street London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.46
+   },
+   {
+    "osm_id": "node/12430661114",
+    "name": "Aboxr",
+    "brand": null,
+    "lat": 51.542393,
+    "lon": -0.1549543,
+    "address": "146 Gloucester Avenue London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.46
+   },
+   {
+    "osm_id": "node/6294979434",
+    "name": "Anytime Fitness",
+    "brand": "Anytime Fitness",
+    "lat": 51.4854197,
+    "lon": -0.182086,
+    "address": "222-224 Fulham Road London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.47
+   },
+   {
+    "osm_id": "node/3762349009",
+    "name": "MoreYoga",
+    "brand": null,
+    "lat": 51.5366248,
+    "lon": -0.1016518,
+    "address": "21 Essex Road London N1 2SA",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.48
+   },
+   {
+    "osm_id": "node/2622714738",
+    "name": "Westminster School Sports Centre",
+    "brand": null,
+    "lat": 51.4949581,
+    "lon": -0.1339195,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.51
+   },
+   {
+    "osm_id": "node/505801347",
+    "name": "Nuffield Health Fitness & Wellbeing",
+    "brand": "Nuffield Health Fitness & Wellbeing",
+    "lat": 51.5371752,
+    "lon": -0.101612,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.53
+   },
+   {
+    "osm_id": "node/2324940449",
+    "name": null,
+    "brand": null,
+    "lat": 51.4872189,
+    "lon": -0.1680035,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.53
+   },
+   {
+    "osm_id": "node/12161690997",
+    "name": "Third Space",
+    "brand": "Third Space",
+    "lat": 51.4803007,
+    "lon": -0.1434958,
+    "address": "Prospect Way London SW11 8BH",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.54
+   },
+   {
+    "osm_id": "node/7532854726",
+    "name": "Barrecore",
+    "brand": null,
+    "lat": 51.5026,
+    "lon": -0.1909949,
+    "address": "18 Kensington Church Street",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.55
+   },
+   {
+    "osm_id": "node/7953129375",
+    "name": "Eqvvs Training",
+    "brand": null,
+    "lat": 51.4983412,
+    "lon": -0.1673324,
+    "address": "43 Cheval Place London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.55
+   },
+   {
+    "osm_id": "node/12752191806",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.5359506,
+    "lon": -0.1053201,
+    "address": "52 Upper St London N1 0QH",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.56
+   },
+   {
+    "osm_id": "node/5808566410",
+    "name": "Neon",
+    "brand": null,
+    "lat": 51.5260182,
+    "lon": -0.0474455,
+    "address": "195 Bancroft Road London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.57
+   },
+   {
+    "osm_id": "node/8017452441",
+    "name": "Harbour Club",
+    "brand": null,
+    "lat": 51.4951941,
+    "lon": -0.1872182,
+    "address": "116 Cromwell Road London SW7 4XR",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.58
+   },
+   {
+    "osm_id": "node/8241089120",
+    "name": "Ultimate Performance Chelsea",
+    "brand": null,
+    "lat": 51.4871905,
+    "lon": -0.178776,
+    "address": "293 Fulham Road London",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.6
+   },
+   {
+    "osm_id": "node/7532854723",
+    "name": "Body Fix",
+    "brand": null,
+    "lat": 51.5023312,
+    "lon": -0.1898512,
+    "address": "42-44 Kensington High Street London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.61
+   },
+   {
+    "osm_id": "node/3777957704",
+    "name": "Paddington Recreation Ground Fitness Suite",
+    "brand": null,
+    "lat": 51.5308272,
+    "lon": -0.1905766,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.62
+   },
+   {
+    "osm_id": "node/6634029387",
+    "name": "Boom Cycle",
+    "brand": null,
+    "lat": 51.4831321,
+    "lon": -0.1468807,
+    "address": "1-3 Arches Lane London SW11 8AB",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.62
+   },
+   {
+    "osm_id": "node/6544059534",
+    "name": "Mile End American Pool & Snooker Centre",
+    "brand": null,
+    "lat": 51.5222569,
+    "lon": -0.0449498,
+    "address": "229 Mile End Road London E1 4AA",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.63
+   },
+   {
+    "osm_id": "node/7872985725",
+    "name": "BMF",
+    "brand": null,
+    "lat": 51.4834107,
+    "lon": -0.1472891,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.63
+   },
+   {
+    "osm_id": "node/13094251101",
+    "name": "PlayFit Sports Club",
+    "brand": null,
+    "lat": 51.4477761,
+    "lon": -0.1431249,
+    "address": "1-4 Atkins Road London SW12 0AB",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.63
+   },
+   {
+    "osm_id": "node/6551299187",
+    "name": "Virgin Active",
+    "brand": "Virgin Active",
+    "lat": 51.5025858,
+    "lon": -0.1896846,
+    "address": "17a Old Court Place London",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.64
+   },
+   {
+    "osm_id": "node/13098009921",
+    "name": "LSBU Active Gym & Sports Centre",
+    "brand": null,
+    "lat": 51.4974421,
+    "lon": -0.1025562,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.67
+   },
+   {
+    "osm_id": "node/3722823754",
+    "name": "iFit Personal Training",
+    "brand": null,
+    "lat": 51.4942659,
+    "lon": -0.1413063,
+    "address": "239 Vauxhall Bridge Road London SW1V 1EQ",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.68
+   },
+   {
+    "osm_id": "node/10152865407",
+    "name": "Anytime Fitness",
+    "brand": "Anytime Fitness",
+    "lat": 51.5442404,
+    "lon": -0.1524283,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.68
+   },
+   {
+    "osm_id": "node/7122080696",
+    "name": "Heartcore",
+    "brand": null,
+    "lat": 51.5116978,
+    "lon": -0.1929999,
+    "address": "57 Ossington Street",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.69
+   },
+   {
+    "osm_id": "node/6533516566",
+    "name": "Swiss Cottage Leisure Centre Gym",
+    "brand": null,
+    "lat": 51.5425826,
+    "lon": -0.1725647,
+    "address": null,
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.71
+   },
+   {
+    "osm_id": "node/7063911822",
+    "name": "Barrecore",
+    "brand": null,
+    "lat": 51.5157086,
+    "lon": -0.1951264,
+    "address": "12 Chepstow Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.71
+   },
+   {
+    "osm_id": "node/6631981302",
+    "name": "Feel Electric",
+    "brand": null,
+    "lat": 51.537424,
+    "lon": -0.184958,
+    "address": "91 Boundary Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.73
+   },
+   {
+    "osm_id": "node/8819117413",
+    "name": "Third Place Islington",
+    "brand": null,
+    "lat": 51.5385612,
+    "lon": -0.1035805,
+    "address": "15 Esther Anne Place London N1 1UL",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.73
+   },
+   {
+    "osm_id": "node/12487056446",
+    "name": "Anytime Fitness",
+    "brand": null,
+    "lat": 51.5025583,
+    "lon": -0.1878492,
+    "address": "2-24 Kensington High Street London W8 4PT",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.75
+   },
+   {
+    "osm_id": "node/9349051286",
+    "name": "Re:form",
+    "brand": null,
+    "lat": 51.4722585,
+    "lon": -0.2468612,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.76
+   },
+   {
+    "osm_id": "node/8910767069",
+    "name": "Kiss Gyms",
+    "brand": null,
+    "lat": 51.5063578,
+    "lon": -0.2580059,
+    "address": "195 The Vale",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.78
+   },
+   {
+    "osm_id": "node/11259926288",
+    "name": "QMotion Sport & Fitness Centre",
+    "brand": null,
+    "lat": 51.5232056,
+    "lon": -0.0430848,
+    "address": "15 Godward Square London E1 4FZ",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.78
+   },
+   {
+    "osm_id": "node/9217370963",
+    "name": null,
+    "brand": null,
+    "lat": 51.4935404,
+    "lon": -0.1171516,
+    "address": null,
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.8
+   },
+   {
+    "osm_id": "node/10884085524",
+    "name": "Gymbox Elephant and Castle",
+    "brand": null,
+    "lat": 51.4946808,
+    "lon": -0.0980221,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.8
+   },
+   {
+    "osm_id": "node/11185941061",
+    "name": "Fight City Gym",
+    "brand": null,
+    "lat": 51.4940133,
+    "lon": -0.0950737,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.8
+   },
+   {
+    "osm_id": "node/52787118",
+    "name": "Queensbridge Sports & Community Centre",
+    "brand": null,
+    "lat": 51.5422368,
+    "lon": -0.071346,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.81
+   },
+   {
+    "osm_id": "node/7175641524",
+    "name": "Form Studios",
+    "brand": null,
+    "lat": 51.5145583,
+    "lon": -0.2038382,
+    "address": "77a Lonsdale Road",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.81
+   },
+   {
+    "osm_id": "node/11576989084",
+    "name": "Basis",
+    "brand": null,
+    "lat": 51.5383453,
+    "lon": -0.0583711,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.81
+   },
+   {
+    "osm_id": "node/3597265960",
+    "name": "Physical Culture Gymnasium",
+    "brand": null,
+    "lat": 51.4617632,
+    "lon": -0.2104237,
+    "address": "Studios 21-22 Winthorpe Road London SW15 2LW",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.82
+   },
+   {
+    "osm_id": "node/9111538826",
+    "name": "Tempo 301",
+    "brand": null,
+    "lat": 51.4941036,
+    "lon": -0.0972194,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.84
+   },
+   {
+    "osm_id": "node/13604238950",
+    "name": "GYMPODS Putney",
+    "brand": "GYMPODS",
+    "lat": 51.4594047,
+    "lon": -0.2102067,
+    "address": "88 Upper Richmond Road London SW15 2DT",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.84
+   },
+   {
+    "osm_id": "node/8916367892",
+    "name": "More Yoga",
+    "brand": null,
+    "lat": 51.4937194,
+    "lon": -0.0958232,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.85
+   },
+   {
+    "osm_id": "node/12262285228",
+    "name": "Studio Anatomy",
+    "brand": null,
+    "lat": 51.5380244,
+    "lon": -0.0565976,
+    "address": null,
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.86
+   },
+   {
+    "osm_id": "node/9216912474",
+    "name": "Grappler's Den",
+    "brand": null,
+    "lat": 51.4450665,
+    "lon": -0.1426524,
+    "address": "Weir Road London SW12 0NE",
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.87
+   },
+   {
+    "osm_id": "node/11016967985",
+    "name": "Psycle",
+    "brand": "Psycle",
+    "lat": 51.4940084,
+    "lon": -0.1481489,
+    "address": "27 Eccleston Place London SW1W 9NF",
+    "nearest_own_club": "Fitness First Tottenham Court Road",
+    "distance_km": 2.88
+   },
+   {
+    "osm_id": "node/288598376",
+    "name": null,
+    "brand": null,
+    "lat": 51.4995651,
+    "lon": -0.2645088,
+    "address": null,
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.89
+   },
+   {
+    "osm_id": "node/3840885062",
+    "name": "Gav the Champ",
+    "brand": null,
+    "lat": 51.5419388,
+    "lon": -0.1799981,
+    "address": "95b Fairfax Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.9
+   },
+   {
+    "osm_id": "node/7166937142",
+    "name": "Bodyism",
+    "brand": null,
+    "lat": 51.5144748,
+    "lon": -0.2010958,
+    "address": "222-224 Westbourne Grove",
+    "nearest_own_club": "Fitness First Hammersmith",
+    "distance_km": 2.91
+   },
+   {
+    "osm_id": "node/12211618193",
+    "name": "Bloodline Gym",
+    "brand": null,
+    "lat": 51.5396213,
+    "lon": -0.0587923,
+    "address": "9-15 Helmsley Place London E8 3SB",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.91
+   },
+   {
+    "osm_id": "node/4677251804",
+    "name": "Performance RX",
+    "brand": null,
+    "lat": 51.5423227,
+    "lon": -0.1797374,
+    "address": "79-81 Fairfax Road London",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.92
+   },
+   {
+    "osm_id": "node/12211629682",
+    "name": "F45 Training",
+    "brand": "F45 Training",
+    "lat": 51.5392092,
+    "lon": -0.0574936,
+    "address": "19 Sidworth Street London",
+    "nearest_own_club": "Fitness First Liverpool Street",
+    "distance_km": 2.93
+   },
+   {
+    "osm_id": "node/4377652729",
+    "name": "PureGym",
+    "brand": "PureGym",
+    "lat": 51.4756976,
+    "lon": -0.1315226,
+    "address": null,
+    "nearest_own_club": "Fitness First Clapham Junction",
+    "distance_km": 2.94
+   },
+   {
+    "osm_id": "node/408121748",
+    "name": "Bannatyne Health Club",
+    "brand": "Bannatyne Health Club",
+    "lat": 51.5362334,
+    "lon": -0.1907913,
+    "address": "4 Greville Road London NW6 5HZ",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.95
+   },
+   {
+    "osm_id": "node/8345248688",
+    "name": "KXU",
+    "brand": null,
+    "lat": 51.4935544,
+    "lon": -0.1586028,
+    "address": "241 Pavilion Road",
+    "nearest_own_club": "Fitness First Baker Street",
+    "distance_km": 2.98
+   }
+  ]
+ }
+}

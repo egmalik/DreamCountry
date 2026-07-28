@@ -1,0 +1,130 @@
+{
+ "source": "gdelt_news",
+ "collected_at": "2026-07-28T22:24:39+00:00",
+ "ok": true,
+ "data": {
+  "brand_news": {
+   "PureGym": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "The Gym Group": [],
+   "David Lloyd": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Anytime Fitness": [],
+   "Nuffield Health": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Virgin Active": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Basic-Fit": [
+    {
+     "title": "Gemeenten verzetten zich tegen intrekken boerenvergunningen",
+     "url": "https://www.dagelijksestandaard.nl/politiek/brabantse-gemeenten-verzet-intrekken-vergunningen-pluimveehouders?comment=1009580",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    },
+    {
+     "title": "Gemeenten verzetten zich tegen intrekken boerenvergunningen",
+     "url": "https://www.dagelijksestandaard.nl/politiek/brabantse-gemeenten-verzet-intrekken-vergunningen-pluimveehouders?comment=1009583",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    },
+    {
+     "title": "Gemeenten verzetten zich tegen intrekken boerenvergunningen",
+     "url": "https://www.dagelijksestandaard.nl/politiek/brabantse-gemeenten-verzet-intrekken-vergunningen-pluimveehouders",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    },
+    {
+     "title": "Toeslag over 2025 aanvragen kan tot 31 december",
+     "url": "https://www.dagelijksestandaard.nl/economie/toeslagen-2025-aanvragen-deadline-31-december-2026?comment=1009584",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    },
+    {
+     "title": "Fed - rentebesluit kan dollar en beleggingen raken",
+     "url": "https://www.dagelijksestandaard.nl/economie/fed-rentebesluit-juli-2026-dollar-beleggingen",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    },
+    {
+     "title": "Twee jaar cel en tbs voor verkrachting meisje van zeven",
+     "url": "https://www.dagelijksestandaard.nl/binnenland/verkrachting-meisje-zeven-zuiderpark-twee-jaar-cel-tbs",
+     "date": "20260728T194500Z",
+     "source": "dagelijksestandaard.nl",
+     "country": "Netherlands"
+    }
+   ],
+   "Planet Fitness": [],
+   "Life Time": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Xponential Fitness": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ]
+  },
+  "event_signals": {
+   "PureGym": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "The Gym Group": [],
+   "David Lloyd": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Anytime Fitness": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Nuffield Health": [],
+   "Virgin Active": [],
+   "Basic-Fit": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Planet Fitness": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ],
+   "Life Time": [
+    {
+     "title": " 【 小说连载 】 滕晨 ： 还乡 （ 九 ） | CND刊物和论坛",
+     "url": "http://hx.cnd.org/2026/07/28/%E3%80%90%E5%B0%8F%E8%AF%B4%E8%BF%9E%E8%BD%BD%E3%80%91%E6%BB%95%E6%99%A8%EF%BC%9A%E8%BF%98%E4%B9%A1%EF%BC%88%E4%B9%9D%EF%BC%89/",
+     "date": "20260728T194500Z",
+     "source": "hx.cnd.org",
+     "country": "China"
+    }
+   ],
+   "Xponential Fitness": [
+    {
+     "error": "HTTP 429 from api.gdeltproject.org"
+    }
+   ]
+  }
+ }
+}

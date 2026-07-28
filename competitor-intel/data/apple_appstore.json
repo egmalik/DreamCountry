@@ -1,0 +1,421 @@
+{
+ "source": "apple_appstore",
+ "collected_at": "2026-07-28T22:20:57+00:00",
+ "ok": true,
+ "data": [
+  {
+   "competitor": "PureGym",
+   "app_name": "PureGym",
+   "app_id": 588860938,
+   "rating": 4.74087,
+   "rating_count": 224400,
+   "current_version": "6.0.0",
+   "last_updated": "2026-07-10T13:28:59Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Outstanding",
+     "rating": "5",
+     "text": "Friendly and welcoming environment",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Work it",
+     "rating": "5",
+     "text": "Quality just quantity",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Unprofessional",
+     "rating": "1",
+     "text": "I use the PureGym at First Street. I brought my mother in using bring a buddy code, Callum Brady walked up to me and asked if I had membership I said yes. I came in with my code, I had no plans to use the gym just to escort my mum. We went upstairs and he sent another colleague to come and harass us asking for code, I eventually showed him the two separate codes he apologized and said Callum said ",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Slow",
+     "rating": "2",
+     "text": "Always slower than just entering the door code. It doesn’t even show opening times in the app, it opens the website.",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Utterly sick of standing at my gym front door!!!!!!",
+     "rating": "1",
+     "text": "SERIOUSLY get the he gym access sorted, before you load up all the rest of the bloat where in your app have the gym access start, the amount of time I have to stand like an idiot waiting on gym access QR to load is frankly a joke!   I don’t use your rubbish app for anything but gym access, so have it load instantly….  INSTANTLY or have a second app just for access with the QR code already loaded b",
+     "version": "6.0.0"
+    }
+   ]
+  },
+  {
+   "competitor": "The Gym Group",
+   "app_name": "The Gym Group",
+   "app_id": 1444707310,
+   "rating": 4.72218,
+   "rating_count": 121003,
+   "current_version": "7.7",
+   "last_updated": "2026-07-03T10:24:26Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "App is awful",
+     "rating": "1",
+     "text": "Constantly pops up a message saying something went wrong try again later. Can’t change the gym capacity to show how many people in instead of %. Just an all-round wonky app",
+     "version": "7.7"
+    },
+    {
+     "title": "Profits Over Member Experience",
+     "rating": "1",
+     "text": "The Gym Group clearly prioritises profits over customer experience. The facility is constantly overcrowded—even outside of peak hours—and the lack of available equipment makes working out challenging. It may be cheap, but the quality falls well below what you pay for. I do not recommend The Gym Group.",
+     "version": "7.7"
+    },
+    {
+     "title": "Mrs D",
+     "rating": "4",
+     "text": "Very Clean Gym, let hope users maintain it",
+     "version": "7.7"
+    },
+    {
+     "title": "Good gym",
+     "rating": "5",
+     "text": "Good app tell how long u have been in and the gym group in town Doncaster is a good gym 2 floors one up stairs and one downstairs",
+     "version": "7.7"
+    },
+    {
+     "title": "2GB size is ridiculous",
+     "rating": "3",
+     "text": "I need this app to enter my gym but due to it also including a load of random workouts I don’t want to use it’s over 2GB in size. \nI like the feature where you can see how busy the gym is but may just switch to using the pin to save space on my phone.",
+     "version": "7.7"
+    }
+   ]
+  },
+  {
+   "competitor": "David Lloyd",
+   "app_name": "David Lloyd Clubs",
+   "app_id": 1037992616,
+   "rating": 4.68185,
+   "rating_count": 81714,
+   "current_version": "151.1.0",
+   "last_updated": "2026-06-24T08:54:18Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "New class booking proposals for app",
+     "rating": "1",
+     "text": "Instead of investing money in the app to improve the booking process someone has come up with the most bizarre booking process.  To now have to book at random times throughout the day is simply ludicrous why does no one at David Lloyd think of the practical side of this, all this system will do is complicate the whole process for members.  Why can’t a company the size of David Lloyd invest money i",
+     "version": "151.1.0"
+    },
+    {
+     "title": "Poor changing rooms",
+     "rating": "1",
+     "text": "Men changing  rooms are not clean and benches and shores need repair.  DL needs to invest in renewing Harrogate club",
+     "version": "151.1.0"
+    },
+    {
+     "title": "Fiona’s spin",
+     "rating": "5",
+     "text": "It’s the best",
+     "version": "151.1.0"
+    },
+    {
+     "title": "App is a joke, dev team a bad joke",
+     "rating": "1",
+     "text": "People can’t book at the time all the classes open at once, the app crashes… what to do? Allocate more bandwidth or processing power? No, because that would cost money and we hold our customers in contempt. Much better to change it so you have to log on at whatever random time your class is 9 days before! Genius! Pathetic.",
+     "version": "151.1.0"
+    },
+    {
+     "title": "Great place",
+     "rating": "5",
+     "text": "Wonderful place to relax and exercise",
+     "version": "151.1.0"
+    }
+   ]
+  },
+  {
+   "competitor": "Anytime Fitness",
+   "app_name": "Anytime Fitness App",
+   "app_id": 1598355340,
+   "rating": 4.59539,
+   "rating_count": 781,
+   "current_version": "4.5.0",
+   "last_updated": "2026-07-16T13:57:48Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Awful",
+     "rating": "1",
+     "text": "Far worse then the old app , you can’t even build your own workout",
+     "version": "4.4.0"
+    },
+    {
+     "title": "Constant error when booking classes",
+     "rating": "2",
+     "text": "From the day I downloaded this app I’ve had issues booking specific classes, mainly with 1 instructor.  I’ve continued to raise this and send screen shots but it has never been fixed.  The issue seems to resolve itself then happens again a week later.  The mails responses are quick via the support team but I would love not to have to email you every week or the gym to book onto a class.",
+     "version": "4.3.7"
+    },
+    {
+     "title": "Bugs out",
+     "rating": "2",
+     "text": "Good app but it’s consistently bugging out. At least a couple of times a week I can’t book a class, and there is no reason given to why it happens. It’s very annoying which means I miss out classes as I can’t book them in time",
+     "version": "4.0.1"
+    },
+    {
+     "title": "Horrible app",
+     "rating": "1",
+     "text": "I don’t want to share all my information regarding weight height fitness goals etc.. then build a workout plan just to access my pass so I can tap to enter the gym.",
+     "version": "3.8.2"
+    },
+    {
+     "title": "Cannot reserve",
+     "rating": "3",
+     "text": "Always have a error which cannot be showing the buttom to let me reserve the class.",
+     "version": "3.7.0"
+    }
+   ]
+  },
+  {
+   "competitor": "Nuffield Health",
+   "app_name": "Nuffield Health",
+   "app_id": 1612026742,
+   "rating": 4.7016,
+   "rating_count": 14675,
+   "current_version": "1.2.21",
+   "last_updated": "2026-04-27T08:01:02Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Nuffield Cheam",
+     "rating": "5",
+     "text": "All classes good in particular Lizzy and Donna Pilates. Antony Young kettlebells and Andrea Zumba look forward to all these classes.",
+     "version": "1.2.21"
+    },
+    {
+     "title": "Rate the instructors",
+     "rating": "4",
+     "text": "Would be nice to add a prompt to rate the instructors and be able to drop a review.",
+     "version": "1.2.21"
+    },
+    {
+     "title": "Cheam Nuffield club",
+     "rating": "4",
+     "text": "I have been member for 25 year.  I enjoy visiting the club to workout . The staff are very friendly and polite makes one feel at home. \nClub itself is good but booking app is not so good.\nWe have to set an alarm to wake up at 6:58 to be ready to book when the App opens at 7 am and still cannot get in. I suggest that the App opens up at 7pm rather than 7 am so that we don’t have to deprive our slee",
+     "version": "1.2.21"
+    },
+    {
+     "title": "Mr A",
+     "rating": "3",
+     "text": "Great gym- however terrible time we are having with the changing rooms.",
+     "version": "1.2.21"
+    },
+    {
+     "title": "App needs redeveloping",
+     "rating": "1",
+     "text": "It works except when anyone books at 7am……",
+     "version": "1.2.21"
+    }
+   ]
+  },
+  {
+   "competitor": "Virgin Active",
+   "app_name": "Virgin Active UK",
+   "app_id": 1005816652,
+   "rating": 4.72969,
+   "rating_count": 70423,
+   "current_version": "4.5.15",
+   "last_updated": "2026-07-16T06:35:41Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Awful update",
+     "rating": "1",
+     "text": "Was any user testing done on the new app before it was released?! The UI and UX are absolutely terrible. Who on earth signed this off?!",
+     "version": "4.5.15"
+    },
+    {
+     "title": "Fantastic aqua classes",
+     "rating": "5",
+     "text": "Very good instructor specially Emma 💪🏽💪🏽💪🏽👍🏽👍🏽",
+     "version": "4.5.6"
+    },
+    {
+     "title": "Doesn’t show the rewards tab on my app",
+     "rating": "1",
+     "text": "Tried getting customer service to help through the phone and through their web chat and they just tell me to uninstall and reinstalled the app",
+     "version": "4.5.6"
+    },
+    {
+     "title": "Can be improved further",
+     "rating": "3",
+     "text": "The new app has nice features like club occupancy and the reward scheme for attendance but reviewing existing class bookings and waitlist position was much easier in older version. If I booked more than 2 classes I can’t get a full view of all my bookings. I also wish there were app driven push notifications to ins sending class reminders and a feature asking to confirm within 5 or 10min of we wan",
+     "version": "4.5.6"
+    },
+    {
+     "title": "Virgin Collingtree",
+     "rating": "5",
+     "text": "Very enjoyable place to come and exercise, relax, socialise and also have fun. The staff are very focused yet warm an friendly. And, of course the instructors are excellent in all areas. Nothing is too much !! \n\nSame again-All focused on client delivery!!!\nGordon Critchlow",
+     "version": "4.5.6"
+    }
+   ]
+  },
+  {
+   "competitor": "Basic-Fit",
+   "app_name": "Basic-Fit",
+   "app_id": 1588263601,
+   "rating": 4.58553,
+   "rating_count": 152,
+   "current_version": "1.97.1",
+   "last_updated": "2026-07-27T09:35:04Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Beaucoup de bien facilités",
+     "rating": "4",
+     "text": "Love Basic-Fit Gym…so far so good! I recommend!",
+     "version": "1.79.3"
+    },
+    {
+     "title": "De Keyserlei",
+     "rating": "4",
+     "text": "Today Sunday 11 I must say cleaning is really an issue specially today . Since Guy left the spirit has gone with him !!",
+     "version": "1.72.1"
+    },
+    {
+     "title": "SCAM ARTISTS",
+     "rating": "1",
+     "text": "got a gym membership for 1 month and then cancelled only to received an email 3 month later saying I owe them 188 euros!!! \n\nNo customer service number! \n\nPure scam take your money elsewhere !",
+     "version": "1.60.1"
+    },
+    {
+     "title": "Gets Me In The Building (sometimes)",
+     "rating": "3",
+     "text": "Mostly I just need to get in the building and get my Yenga water so when that’s a problem (turnstile and water machine not working) the quality of the App is not top of my agenda. Well done for having an App but a FREE plastic card (not €20) would do. The rest doesn’t really excite me.\n\nUnfortunately using phone apps gives people an excuse to break the rules, grab a bike and chat hands free like t",
+     "version": "1.42.0"
+    }
+   ]
+  },
+  {
+   "competitor": "Planet Fitness",
+   "app_name": "Planet Fitness",
+   "app_id": 399857015,
+   "rating": 4.87293,
+   "rating_count": 755330,
+   "current_version": "9.12.4",
+   "last_updated": "2026-07-13T13:47:08Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Add to Apple wallet",
+     "rating": "4",
+     "text": "Update your app to add QR code to Apple wallet already",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Blocked my account",
+     "rating": "2",
+     "text": "I was trying to login to my account on my iPad because I already was logged in on my phone, but then I didn’t know where the code was going so I finally figured out and then it wouldn’t let me login. It kept saying your account has been blocked.",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Morning shift",
+     "rating": "5",
+     "text": "They are always friendly and appreciated for showing up so early. We couldn’t workout early without them!!",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Awesome, high integrity employees.",
+     "rating": "5",
+     "text": "The Goodlettsville Tennessee gym is always clean. All of the staff is nice and helpful.",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Stuck on loading",
+     "rating": "1",
+     "text": "Can’t get in the app. Stuck on the loading screen even after uninstalling and reinstalling it",
+     "version": "9.12.4"
+    }
+   ]
+  },
+  {
+   "competitor": "Life Time",
+   "app_name": "Life Time Digital",
+   "app_id": 1192326768,
+   "rating": 4.77513,
+   "rating_count": 177266,
+   "current_version": "2026.7.17",
+   "last_updated": "2026-07-20T14:59:25Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Horrible glitchy app",
+     "rating": "1",
+     "text": "Not sure if there is any quality control for this app. Constantly a problem. Does not allow you to order food at your gym through app. Does not accept lifetime gift cards at random times.  Does anyone ever do quality control? Whoever is in charge of this app should be reprimanded by their supervisor.",
+     "version": "2026.7.17"
+    },
+    {
+     "title": "Would give 5 stars but…,",
+     "rating": "4",
+     "text": "I really like the app and the ability to create varied workouts. However, there’s no way that I can find to remove duplicate workouts. \nOverall, the app is great for making appointments with a trainer or a class. \nI would give 5 stars if there was a way to remove unwanted exercises.\n\nSince the app updated, I can now remove workouts that i don’t want. Now the problem is any workouts created by AI d",
+     "version": "2026.7.17"
+    },
+    {
+     "title": "GTX NOT USABLE",
+     "rating": "1",
+     "text": "The latest update made following or looking at the GTX workouts impossible.  The copy of the workout “screen” is too small to read and the aerobic portion is completely missing from the guided workouts.  Please give us a full phone screen shot of the total workout that is readable.  This is just atrocious.",
+     "version": "2026.7.10"
+    },
+    {
+     "title": "Apple Watch App no longer useful",
+     "rating": "3",
+     "text": "The only thing I used the life time watch app for was the QR code to get into lifetime. That no longer works unless you allow app to read and write health data. \n\nLT, please respect your members privacy when they don’t want you to have their health data.",
+     "version": "2026.7.10"
+    },
+    {
+     "title": "Wasted a whole day -not reliable info",
+     "rating": "1",
+     "text": "The app has the wrong dates and times for classes especially the chat interface, please refer to your local gym board for accurate classes dates",
+     "version": "2026.7.10"
+    }
+   ]
+  },
+  {
+   "competitor": "Xponential Fitness",
+   "app_name": "Club Pilates",
+   "app_id": 1485767959,
+   "rating": 4.81226,
+   "rating_count": 130007,
+   "current_version": "3.14.3",
+   "last_updated": "2026-05-27T18:17:45Z",
+   "genre": "Health & Fitness",
+   "recent_reviews": [
+    {
+     "title": "Clean /well managed",
+     "rating": "5",
+     "text": "I was pleasantly surprised at the level  professionalism.\nFrom the front desk and the  teachers. The studio is clean well equipped and i love the choice of music",
+     "version": "3.14.3"
+    },
+    {
+     "title": "Classes",
+     "rating": "1",
+     "text": "Hard to get into classes",
+     "version": "3.14.3"
+    },
+    {
+     "title": "Can’t log in!",
+     "rating": "1",
+     "text": "Bad, not able to to login and when I click on forget password, I don’t get an email to reset the password. Very bad app.",
+     "version": "3.14.3"
+    },
+    {
+     "title": "Loving it!!",
+     "rating": "5",
+     "text": "I’ve attended my first three Pilates classes and I’ve loved being a part of club Pilates. I feel my stomach and my toes are getting a work out. So much fun!",
+     "version": "3.14.3"
+    },
+    {
+     "title": "Small Gray Font",
+     "rating": "3",
+     "text": "This app is hard to use because the font is very small and gray.",
+     "version": "3.14.3"
+    }
+   ]
+  }
+ ]
+}

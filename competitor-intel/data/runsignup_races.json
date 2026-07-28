@@ -1,0 +1,367 @@
+{
+ "source": "runsignup_races",
+ "collected_at": "2026-07-28T22:36:52+00:00",
+ "ok": true,
+ "data": {
+  "by_market": {
+   "London": [
+    {
+     "name": "Stunted Pride - 100m Dash",
+     "date": "08/01/2026",
+     "city": "London",
+     "region": "LND",
+     "country": "GB",
+     "url": "https://runsignup.com/Race/LND/London/StuntedPrideMDash",
+     "organization": null
+    },
+    {
+     "name": "Unbridled Women Adventure Race",
+     "date": "08/29/2026",
+     "city": "London",
+     "region": "KY",
+     "country": "US",
+     "url": "https://runsignup.com/Race/KY/London/UnbridledWomenAR",
+     "organization": null
+    },
+    {
+     "name": "The Great Summer Send-Off 5K Fun Run & Walk",
+     "date": "09/03/2026",
+     "city": "London",
+     "region": "LND",
+     "country": "GB",
+     "url": "https://runsignup.com/Race/LND/London/TheGreatSummerSendOff5KFunRunWalk",
+     "organization": null
+    },
+    {
+     "name": "Dash For A Cure 5K/1 Mile Fun Walk/Kid's Dash",
+     "date": "10/18/2026",
+     "city": "London",
+     "region": "KY",
+     "country": "US",
+     "url": "https://runsignup.com/Race/KY/London/DashForACure5K",
+     "organization": null
+    },
+    {
+     "name": "Test Race",
+     "date": "01/07/2027",
+     "city": "London",
+     "region": "ON",
+     "country": "CA",
+     "url": "https://runsignup.com/Race/ON/London/TestRace8830",
+     "organization": null
+    }
+   ],
+   "Manchester": [
+    {
+     "name": "MRC Track & Field Series presented by Marathon Sports",
+     "date": "06/27/2026",
+     "city": "Manchester",
+     "region": "CT",
+     "country": "US",
+     "url": "https://runsignup.com/Race/CT/Manchester/MRCTrackFieldSeries",
+     "organization": null
+    },
+    {
+     "name": "Wickham Summer XC Series",
+     "date": "07/06/2026",
+     "city": "Manchester",
+     "region": "CT",
+     "country": "US",
+     "url": "https://runsignup.com/Race/CT/Manchester/WickhamSummerXCSeries",
+     "organization": null
+    },
+    {
+     "name": "Horning Farms Hustle - 5k & Fun Run",
+     "date": "08/08/2026",
+     "city": "Manchester",
+     "region": "MI",
+     "country": "US",
+     "url": "https://runsignup.com/Race/MI/Manchester/HorningFarmsHustle5kFunRun",
+     "organization": null
+    },
+    {
+     "name": "Hero Hustle Sprint Triathlon & Duathlon",
+     "date": "08/30/2026",
+     "city": "Manchester",
+     "region": "IA",
+     "country": "US",
+     "url": "https://runsignup.com/Race/IA/Manchester/HeroHustleSprintTriathlon",
+     "organization": null
+    },
+    {
+     "name": "3rd Annual Facelift Foundation 5K FundRun",
+     "date": "08/30/2026",
+     "city": "Manchester",
+     "region": "KY",
+     "country": "US",
+     "url": "https://runsignup.com/Race/KY/Manchester/Facelift5KFunRun",
+     "organization": null
+    },
+    {
+     "name": "A Race for the Ages",
+     "date": "09/03/2026",
+     "city": "Manchester",
+     "region": "TN",
+     "country": "US",
+     "url": "https://runsignup.com/Race/TN/Manchester/ARacefortheAges",
+     "organization": null
+    },
+    {
+     "name": "Healthy Kids Running Series Fall 2026 - Manchester, NH",
+     "date": "09/13/2026",
+     "city": "Manchester",
+     "region": "NH",
+     "country": "US",
+     "url": "https://runsignup.com/Race/NH/Manchester/HealthyKidsRunningSeriesManchesterNH",
+     "organization": null
+    },
+    {
+     "name": "Gourdy's Pumpkin Run: Manchester",
+     "date": "10/03/2026",
+     "city": "Manchester",
+     "region": "NH",
+     "country": "US",
+     "url": "https://runsignup.com/Race/NH/Manchester/GourdysPumpkinRunManchester",
+     "organization": null
+    },
+    {
+     "name": "Howl-O-Ween 5K Run/Walk to benefit the Animal Rescue League of NH",
+     "date": "10/17/2026",
+     "city": "Manchester",
+     "region": "NH",
+     "country": "US",
+     "url": "https://runsignup.com/Race/NH/Manchester/HowlOWeek5K",
+     "organization": null
+    }
+   ]
+  },
+  "competitor_linked": [],
+  "upcoming_marathons_sample": [
+   {
+    "name": "Fifty States Half Marathon Club General Membership",
+    "date": "05/02/2024",
+    "city": "Colorado Springs",
+    "region": "CO",
+    "country": "US",
+    "url": "https://runsignup.com/Race/CO/ColoradoSprings/FiftyStatesHalfMarathonClubGeneralMembership",
+    "organization": null
+   },
+   {
+    "name": "50 States Half Marathon Club Life Membership",
+    "date": "10/27/2024",
+    "city": "Colorado Springs",
+    "region": "CO",
+    "country": "US",
+    "url": "https://runsignup.com/Race/CO/ColoradoSprings/50StatesHalfMarathonClubLifeMembersip",
+    "organization": null
+   },
+   {
+    "name": "El Paso Marathon 'E' & 'L' Medals",
+    "date": "06/04/2025",
+    "city": "El Paso",
+    "region": "TX",
+    "country": "US",
+    "url": "https://runsignup.com/Race/TX/ElPaso/ElPasoMarathonELMedals",
+    "organization": null
+   },
+   {
+    "name": "Move for Hope  1K • 5K • 10K • Half Marathon Virtual Races",
+    "date": "12/01/2025",
+    "city": "Miami",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/Miami/Move4Hope",
+    "organization": null
+   },
+   {
+    "name": "Hip-Hop Runzz (half & MARATHON)",
+    "date": "01/01/2026",
+    "city": "Bronx",
+    "region": "NY",
+    "country": "US",
+    "url": "https://runsignup.com/Race/NY/Bronx/HipHopRunzzLLC",
+    "organization": null
+   },
+   {
+    "name": "EDGE: Advanced Marathon Training Program",
+    "date": "01/10/2026",
+    "city": "Lewis Center",
+    "region": "OH",
+    "country": "US",
+    "url": "https://runsignup.com/Race/OH/LewisCenter/EDGE",
+    "organization": null
+   },
+   {
+    "name": "Marathoner in Training (MIT)",
+    "date": "01/10/2026",
+    "city": "Lewis Center",
+    "region": "OH",
+    "country": "US",
+    "url": "https://runsignup.com/Race/OH/LewisCenter/MarathonerInTrainingMIT2025",
+    "organization": null
+   },
+   {
+    "name": "Distance Bey – Virtual Nassau Marathon",
+    "date": "01/15/2026",
+    "city": "Orlando",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/Orlando/DistanceBeyVirtualNassauMarathon",
+    "organization": null
+   },
+   {
+    "name": "Move for Hope –  Lotus Bloom  1K • 5K • 10K • Half Marathon Virtual Races",
+    "date": "02/01/2026",
+    "city": "Miami",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/Miami/LotusFlowerRun",
+    "organization": null
+   },
+   {
+    "name": "Ready for Marathon/50K+",
+    "date": "02/17/2026",
+    "city": "Rochester",
+    "region": "NY",
+    "country": "US",
+    "url": "https://runsignup.com/Race/NY/Rochester/ReadyForMarathon50K",
+    "organization": null
+   },
+   {
+    "name": "AdventHealth Howey-in-the-Hills 5K, 10K & Half Marathon presented by LiveTrends Design Group",
+    "date": "02/21/2026",
+    "city": "Howey in the Hills",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/HoweyintheHills/HoweyintheHills5K10k",
+    "organization": null
+   },
+   {
+    "name": "Victory Marathon medal Virtual Race Challenge Coin Challenge",
+    "date": "02/26/2026",
+    "city": "West Jordan",
+    "region": "UT",
+    "country": "US",
+    "url": "https://runsignup.com/Race/UT/WestJordan/VictoryMarathonMedalVirtualRaceChallengeCoinChallenge",
+    "organization": null
+   },
+   {
+    "name": "Move for Hope – Row to Resilience - 1K • 5K • 10K • Half Marathon Virtual Races",
+    "date": "03/01/2026",
+    "city": "Miami",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/Miami/RowToResilience",
+    "organization": null
+   },
+   {
+    "name": "Sam Costa Half Marathon and Quarter Marathon - presented by Indy Runners and Walkers",
+    "date": "03/21/2026",
+    "city": "Carmel",
+    "region": "IN",
+    "country": "US",
+    "url": "https://runsignup.com/Race/IN/Carmel/SamCostaHalfMarathonandQuarterMarathon",
+    "organization": null
+   },
+   {
+    "name": "Move for Hope  –  Butterfly Effect - 1K • 5K • 10K • Half Marathon Virtual Races",
+    "date": "04/01/2026",
+    "city": "Miami",
+    "region": "FL",
+    "country": "US",
+    "url": "https://runsignup.com/Race/FL/Miami/ButterflyRunKLMH",
+    "organization": null
+   },
+   {
+    "name": "The Official 8 Continents Marathon Club",
+    "date": "04/01/2026",
+    "city": "Minneapolis",
+    "region": "MN",
+    "country": "US",
+    "url": "https://runsignup.com/Race/MN/Minneapolis/TheOfficial8ContinentsMarathonClub",
+    "organization": null
+   },
+   {
+    "name": "Atlanta Marathon & Half Marathon Galloway Training",
+    "date": "04/18/2026",
+    "city": "Atlanta",
+    "region": "GA",
+    "country": "US",
+    "url": "https://runsignup.com/Race/GA/Atlanta/AtlantaGallowayTraining",
+    "organization": null
+   },
+   {
+    "name": "Get Strong in 2026 (Optional, you can run Marathon or half marathon, 10k or 5k)",
+    "date": "05/01/2026",
+    "city": "Aldie",
+    "region": "VA",
+    "country": "US",
+    "url": "https://runsignup.com/Race/VA/Aldie/VKMTP2026",
+    "organization": null
+   },
+   {
+    "name": "Team AIMS Marathon Training Program",
+    "date": "05/02/2026",
+    "city": "Herndon",
+    "region": "VA",
+    "country": "US",
+    "url": "https://runsignup.com/Race/VA/Herndon/AIMSMarathonTraining",
+    "organization": null
+   },
+   {
+    "name": "MCRRC First Time Marathon (FTM) Program",
+    "date": "05/03/2026",
+    "city": "Rockville",
+    "region": "MD",
+    "country": "US",
+    "url": "https://runsignup.com/Race/MD/Rockville/MCRRCFirstTimeMarathonProgram",
+    "organization": null
+   },
+   {
+    "name": "Summer 2026 Adult Marathon Prep Class - Cary",
+    "date": "05/10/2026",
+    "city": "Apex",
+    "region": "NC",
+    "country": "US",
+    "url": "https://runsignup.com/Race/NC/Apex/Summer2026AdultMarathonPrepClassCary",
+    "organization": null
+   },
+   {
+    "name": "Mill Race Marathon Training Group",
+    "date": "05/30/2026",
+    "city": "Columbus",
+    "region": "IN",
+    "country": "US",
+    "url": "https://runsignup.com/Race/IN/Columbus/COLMillRaceMarathonTrainingGroup",
+    "organization": null
+   },
+   {
+    "name": "Peony Virtual Race | 1M 5K 10K Half Marathon & Marathon | Language of Flowers Collection",
+    "date": "05/30/2026",
+    "city": "Mcdonough",
+    "region": "GA",
+    "country": "US",
+    "url": "https://runsignup.com/Race/GA/Mcdonough/PeonyVirtualRace",
+    "organization": null
+   },
+   {
+    "name": "PGRC Marathon Training Program",
+    "date": "05/31/2026",
+    "city": "Greenbelt",
+    "region": "MD",
+    "country": "US",
+    "url": "https://runsignup.com/Race/MD/Greenbelt/PGRCFallMarathonTraining",
+    "organization": null
+   },
+   {
+    "name": "Omaha Running Club Distance Clinic for the Omaha Marathon",
+    "date": "06/01/2026",
+    "city": "Omaha",
+    "region": "NE",
+    "country": "US",
+    "url": "https://runsignup.com/Race/NE/Omaha/OmahaRunningClubDistanceClinic",
+    "organization": null
+   }
+  ]
+ }
+}

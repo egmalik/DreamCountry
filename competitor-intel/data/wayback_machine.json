@@ -1,0 +1,1291 @@
+{
+ "source": "wayback_machine",
+ "collected_at": "2026-07-28T22:35:06+00:00",
+ "ok": true,
+ "data": {
+  "PureGym": [
+   {
+    "url": "https://www.puregym.com/join/",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20250106113310",
+      "replay_url": "https://web.archive.org/web/20250106113310/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250116210657",
+      "replay_url": "https://web.archive.org/web/20250116210657/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250124204429",
+      "replay_url": "https://web.archive.org/web/20250124204429/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250124211548",
+      "replay_url": "https://web.archive.org/web/20250124211548/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250124214418",
+      "replay_url": "https://web.archive.org/web/20250124214418/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250131230903",
+      "replay_url": "https://web.archive.org/web/20250131230903/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250317124415",
+      "replay_url": "https://web.archive.org/web/20250317124415/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250320203941",
+      "replay_url": "https://web.archive.org/web/20250320203941/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250404055715",
+      "replay_url": "https://web.archive.org/web/20250404055715/https://www.puregym.com/join",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250421041322",
+      "replay_url": "https://web.archive.org/web/20250421041322/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250508155911",
+      "replay_url": "https://web.archive.org/web/20250508155911/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250509172832",
+      "replay_url": "https://web.archive.org/web/20250509172832/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250516033223",
+      "replay_url": "https://web.archive.org/web/20250516033223/https://www.puregym.com/join/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20250520055158",
+      "replay_url": "https://web.archive.org/web/20250520055158/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250529163852",
+      "replay_url": "https://web.archive.org/web/20250529163852/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250529164722",
+      "replay_url": "https://web.archive.org/web/20250529164722/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250711173931",
+      "replay_url": "https://web.archive.org/web/20250711173931/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250804150656",
+      "replay_url": "https://web.archive.org/web/20250804150656/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251006003627",
+      "replay_url": "https://web.archive.org/web/20251006003627/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251108092055",
+      "replay_url": "https://web.archive.org/web/20251108092055/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251118095950",
+      "replay_url": "https://web.archive.org/web/20251118095950/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251119202615",
+      "replay_url": "https://web.archive.org/web/20251119202615/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251206114446",
+      "replay_url": "https://web.archive.org/web/20251206114446/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260109133527",
+      "replay_url": "https://web.archive.org/web/20260109133527/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260115201817",
+      "replay_url": "https://web.archive.org/web/20260115201817/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260206183758",
+      "replay_url": "https://web.archive.org/web/20260206183758/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260210101046",
+      "replay_url": "https://web.archive.org/web/20260210101046/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260509131340",
+      "replay_url": "https://web.archive.org/web/20260509131340/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260520212659",
+      "replay_url": "https://web.archive.org/web/20260520212659/https://www.puregym.com/join/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260624141847",
+      "replay_url": "https://web.archive.org/web/20260624141847/https://www.puregym.com/join/",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "The Gym Group": [
+   {
+    "url": "https://www.thegymgroup.com/join-now/",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20190328224558",
+      "replay_url": "https://web.archive.org/web/20190328224558/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190330152219",
+      "replay_url": "https://web.archive.org/web/20190330152219/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190330153106",
+      "replay_url": "https://web.archive.org/web/20190330153106/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190723085907",
+      "replay_url": "https://web.archive.org/web/20190723085907/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190723090756",
+      "replay_url": "https://web.archive.org/web/20190723090756/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190909114706",
+      "replay_url": "https://web.archive.org/web/20190909114706/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190923002537",
+      "replay_url": "https://web.archive.org/web/20190923002537/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190923003230",
+      "replay_url": "https://web.archive.org/web/20190923003230/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191002132955",
+      "replay_url": "https://web.archive.org/web/20191002132955/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191114234313",
+      "replay_url": "https://web.archive.org/web/20191114234313/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191121205151",
+      "replay_url": "https://web.archive.org/web/20191121205151/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191212212831",
+      "replay_url": "https://web.archive.org/web/20191212212831/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191215082032",
+      "replay_url": "https://web.archive.org/web/20191215082032/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191217192046",
+      "replay_url": "https://web.archive.org/web/20191217192046/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200308230410",
+      "replay_url": "https://web.archive.org/web/20200308230410/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200607015254",
+      "replay_url": "https://web.archive.org/web/20200607015254/https://www.thegymgroup.com/join-now",
+      "status": "301"
+     },
+     {
+      "timestamp": "20200727203042",
+      "replay_url": "https://web.archive.org/web/20200727203042/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200728164840",
+      "replay_url": "https://web.archive.org/web/20200728164840/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200730150816",
+      "replay_url": "https://web.archive.org/web/20200730150816/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200906030647",
+      "replay_url": "https://web.archive.org/web/20200906030647/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200906033457",
+      "replay_url": "https://web.archive.org/web/20200906033457/https://www.thegymgroup.com/join-now",
+      "status": "200"
+     },
+     {
+      "timestamp": "20201101012628",
+      "replay_url": "https://web.archive.org/web/20201101012628/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20210308150444",
+      "replay_url": "https://web.archive.org/web/20210308150444/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20210920075153",
+      "replay_url": "https://web.archive.org/web/20210920075153/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20211203033407",
+      "replay_url": "https://web.archive.org/web/20211203033407/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20220107123528",
+      "replay_url": "https://web.archive.org/web/20220107123528/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20220119040510",
+      "replay_url": "https://web.archive.org/web/20220119040510/https://www.thegymgroup.com/join-now/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20220121205556",
+      "replay_url": "https://web.archive.org/web/20220121205556/https://www.thegymgroup.com/join-now/#/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20221101155152",
+      "replay_url": "https://web.archive.org/web/20221101155152/https://www.thegymgroup.com/join-now/",
+      "status": "-"
+     },
+     {
+      "timestamp": "20240630002833",
+      "replay_url": "https://web.archive.org/web/20240630002833/http://www.thegymgroup.com/join-now/",
+      "status": "-"
+     }
+    ]
+   }
+  ],
+  "David Lloyd": [
+   {
+    "url": "https://www.davidlloyd.co.uk/memberships/",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20240127212908",
+      "replay_url": "https://web.archive.org/web/20240127212908/https://www.davidlloyd.co.uk/memberships",
+      "status": "301"
+     },
+     {
+      "timestamp": "20240127213556",
+      "replay_url": "https://web.archive.org/web/20240127213556/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240228115148",
+      "replay_url": "https://web.archive.org/web/20240228115148/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240423012818",
+      "replay_url": "https://web.archive.org/web/20240423012818/https://www.davidlloyd.co.uk/memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20240624090940",
+      "replay_url": "https://web.archive.org/web/20240624090940/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240906001444",
+      "replay_url": "https://web.archive.org/web/20240906001444/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241013064030",
+      "replay_url": "https://web.archive.org/web/20241013064030/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241216141237",
+      "replay_url": "https://web.archive.org/web/20241216141237/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241227124847",
+      "replay_url": "https://web.archive.org/web/20241227124847/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241227125416",
+      "replay_url": "https://web.archive.org/web/20241227125416/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250123163022",
+      "replay_url": "https://web.archive.org/web/20250123163022/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250213084149",
+      "replay_url": "https://web.archive.org/web/20250213084149/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250223123035",
+      "replay_url": "https://web.archive.org/web/20250223123035/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250308004704",
+      "replay_url": "https://web.archive.org/web/20250308004704/https://www.davidlloyd.co.uk/memberships",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250326083158",
+      "replay_url": "https://web.archive.org/web/20250326083158/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250416154319",
+      "replay_url": "https://web.archive.org/web/20250416154319/http://www.davidlloyd.co.uk/memberships/",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250423205154",
+      "replay_url": "https://web.archive.org/web/20250423205154/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250425044823",
+      "replay_url": "https://web.archive.org/web/20250425044823/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250518000408",
+      "replay_url": "https://web.archive.org/web/20250518000408/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250709182253",
+      "replay_url": "https://web.archive.org/web/20250709182253/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250804024631",
+      "replay_url": "https://web.archive.org/web/20250804024631/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250808005821",
+      "replay_url": "https://web.archive.org/web/20250808005821/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250825033507",
+      "replay_url": "https://web.archive.org/web/20250825033507/https://www.davidlloyd.co.uk/memberships",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250916200604",
+      "replay_url": "https://web.archive.org/web/20250916200604/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251008051953",
+      "replay_url": "https://web.archive.org/web/20251008051953/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251008051955",
+      "replay_url": "https://web.archive.org/web/20251008051955/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251008053100",
+      "replay_url": "https://web.archive.org/web/20251008053100/https://www.davidlloyd.co.uk/memberships",
+      "status": "-"
+     },
+     {
+      "timestamp": "20251119004734",
+      "replay_url": "https://web.archive.org/web/20251119004734/https://www.davidlloyd.co.uk/memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20260602162300",
+      "replay_url": "https://web.archive.org/web/20260602162300/https://www.davidlloyd.co.uk/memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20260625104757",
+      "replay_url": "https://web.archive.org/web/20260625104757/https://www.davidlloyd.co.uk/memberships/",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "Anytime Fitness": [
+   {
+    "url": "https://www.anytimefitness.co.uk/membership/",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20150403204340",
+      "replay_url": "https://web.archive.org/web/20150403204340/http://anytimefitness.co.uk/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150407063748",
+      "replay_url": "https://web.archive.org/web/20150407063748/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150508120238",
+      "replay_url": "https://web.archive.org/web/20150508120238/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150627005720",
+      "replay_url": "https://web.archive.org/web/20150627005720/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150804050759",
+      "replay_url": "https://web.archive.org/web/20150804050759/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150829051056",
+      "replay_url": "https://web.archive.org/web/20150829051056/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20150927204429",
+      "replay_url": "https://web.archive.org/web/20150927204429/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20151030062201",
+      "replay_url": "https://web.archive.org/web/20151030062201/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160306040339",
+      "replay_url": "https://web.archive.org/web/20160306040339/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160313095718",
+      "replay_url": "https://web.archive.org/web/20160313095718/http://anytimefitness.co.uk/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160326002623",
+      "replay_url": "https://web.archive.org/web/20160326002623/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160414194602",
+      "replay_url": "https://web.archive.org/web/20160414194602/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160501134438",
+      "replay_url": "https://web.archive.org/web/20160501134438/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160520052139",
+      "replay_url": "https://web.archive.org/web/20160520052139/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160609172544",
+      "replay_url": "https://web.archive.org/web/20160609172544/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160701020121",
+      "replay_url": "https://web.archive.org/web/20160701020121/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160721004137",
+      "replay_url": "https://web.archive.org/web/20160721004137/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160816154143",
+      "replay_url": "https://web.archive.org/web/20160816154143/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160817201130",
+      "replay_url": "https://web.archive.org/web/20160817201130/http://www.anytimefitness.co.uk/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160918173519",
+      "replay_url": "https://web.archive.org/web/20160918173519/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160920041028",
+      "replay_url": "https://web.archive.org/web/20160920041028/http://www.anytimefitness.co.uk:80/membership",
+      "status": "301"
+     },
+     {
+      "timestamp": "20161028190556",
+      "replay_url": "https://web.archive.org/web/20161028190556/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20161202163426",
+      "replay_url": "https://web.archive.org/web/20161202163426/http://www.anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20161204061121",
+      "replay_url": "https://web.archive.org/web/20161204061121/http://anytimefitness.co.uk:80/membership",
+      "status": "200"
+     },
+     {
+      "timestamp": "20170324143050",
+      "replay_url": "https://web.archive.org/web/20170324143050/https://www.anytimefitness.co.uk/membership",
+      "status": "-"
+     },
+     {
+      "timestamp": "20171024133811",
+      "replay_url": "https://web.archive.org/web/20171024133811/https://www.anytimefitness.co.uk/membership/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20171024134038",
+      "replay_url": "https://web.archive.org/web/20171024134038/https://www.anytimefitness.co.uk/membership",
+      "status": "301"
+     },
+     {
+      "timestamp": "20181009080414",
+      "replay_url": "https://web.archive.org/web/20181009080414/https://www.anytimefitness.co.uk/membership/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20181019215551",
+      "replay_url": "https://web.archive.org/web/20181019215551/https://www.anytimefitness.co.uk/membership",
+      "status": "301"
+     },
+     {
+      "timestamp": "20230129223329",
+      "replay_url": "https://web.archive.org/web/20230129223329/https://www.anytimefitness.co.uk/membership",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "Nuffield Health": [
+   {
+    "url": "https://www.nuffieldhealth.com/gyms",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20260209073546",
+      "replay_url": "https://web.archive.org/web/20260209073546/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260209194957",
+      "replay_url": "https://web.archive.org/web/20260209194957/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260211145100",
+      "replay_url": "https://web.archive.org/web/20260211145100/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260211192816",
+      "replay_url": "https://web.archive.org/web/20260211192816/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260215164413",
+      "replay_url": "https://web.archive.org/web/20260215164413/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260222011623",
+      "replay_url": "https://web.archive.org/web/20260222011623/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260227172951",
+      "replay_url": "https://web.archive.org/web/20260227172951/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260301104416",
+      "replay_url": "https://web.archive.org/web/20260301104416/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260303130706",
+      "replay_url": "https://web.archive.org/web/20260303130706/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260305103903",
+      "replay_url": "https://web.archive.org/web/20260305103903/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260313144146",
+      "replay_url": "https://web.archive.org/web/20260313144146/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260318093346",
+      "replay_url": "https://web.archive.org/web/20260318093346/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260330075601",
+      "replay_url": "https://web.archive.org/web/20260330075601/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260401212258",
+      "replay_url": "https://web.archive.org/web/20260401212258/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260417072125",
+      "replay_url": "https://web.archive.org/web/20260417072125/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260417130124",
+      "replay_url": "https://web.archive.org/web/20260417130124/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260418094027",
+      "replay_url": "https://web.archive.org/web/20260418094027/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260418154505",
+      "replay_url": "https://web.archive.org/web/20260418154505/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260418205214",
+      "replay_url": "https://web.archive.org/web/20260418205214/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260501140819",
+      "replay_url": "https://web.archive.org/web/20260501140819/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260511162256",
+      "replay_url": "https://web.archive.org/web/20260511162256/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260516215331",
+      "replay_url": "https://web.archive.org/web/20260516215331/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260520020637",
+      "replay_url": "https://web.archive.org/web/20260520020637/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260602003948",
+      "replay_url": "https://web.archive.org/web/20260602003948/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260606171725",
+      "replay_url": "https://web.archive.org/web/20260606171725/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260628103240",
+      "replay_url": "https://web.archive.org/web/20260628103240/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260704042122",
+      "replay_url": "https://web.archive.org/web/20260704042122/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260707135657",
+      "replay_url": "https://web.archive.org/web/20260707135657/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260708100407",
+      "replay_url": "https://web.archive.org/web/20260708100407/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260726112925",
+      "replay_url": "https://web.archive.org/web/20260726112925/https://www.nuffieldhealth.com/gyms",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "Virgin Active": [
+   {
+    "url": "https://www.virginactive.co.uk/memberships",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20160201074608",
+      "replay_url": "https://web.archive.org/web/20160201074608/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160314182151",
+      "replay_url": "https://web.archive.org/web/20160314182151/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160322115725",
+      "replay_url": "https://web.archive.org/web/20160322115725/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20160522010223",
+      "replay_url": "https://web.archive.org/web/20160522010223/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20161009104015",
+      "replay_url": "https://web.archive.org/web/20161009104015/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20161022063353",
+      "replay_url": "https://web.archive.org/web/20161022063353/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20170322164030",
+      "replay_url": "https://web.archive.org/web/20170322164030/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20180614212351",
+      "replay_url": "https://web.archive.org/web/20180614212351/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20190822210042",
+      "replay_url": "https://web.archive.org/web/20190822210042/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191014234925",
+      "replay_url": "https://web.archive.org/web/20191014234925/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20191117010938",
+      "replay_url": "https://web.archive.org/web/20191117010938/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20200411205150",
+      "replay_url": "https://web.archive.org/web/20200411205150/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20230804122102",
+      "replay_url": "https://web.archive.org/web/20230804122102/https://www.virginactive.co.uk/memberships",
+      "status": "301"
+     },
+     {
+      "timestamp": "20231207140636",
+      "replay_url": "https://web.archive.org/web/20231207140636/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20231228152411",
+      "replay_url": "https://web.archive.org/web/20231228152411/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240414211329",
+      "replay_url": "https://web.archive.org/web/20240414211329/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240620161313",
+      "replay_url": "https://web.archive.org/web/20240620161313/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20240824094237",
+      "replay_url": "https://web.archive.org/web/20240824094237/https://www.virginactive.co.uk/memberships",
+      "status": "-"
+     },
+     {
+      "timestamp": "20241007095712",
+      "replay_url": "https://web.archive.org/web/20241007095712/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241117150112",
+      "replay_url": "https://web.archive.org/web/20241117150112/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20241125113003",
+      "replay_url": "https://web.archive.org/web/20241125113003/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250120163236",
+      "replay_url": "https://web.archive.org/web/20250120163236/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250318074924",
+      "replay_url": "https://web.archive.org/web/20250318074924/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250417165558",
+      "replay_url": "https://web.archive.org/web/20250417165558/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250624171231",
+      "replay_url": "https://web.archive.org/web/20250624171231/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250816190507",
+      "replay_url": "https://web.archive.org/web/20250816190507/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251029052634",
+      "replay_url": "https://web.archive.org/web/20251029052634/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251129182622",
+      "replay_url": "https://web.archive.org/web/20251129182622/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260218060603",
+      "replay_url": "https://web.archive.org/web/20260218060603/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260723122547",
+      "replay_url": "https://web.archive.org/web/20260723122547/https://www.virginactive.co.uk/memberships",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "Basic-Fit": [
+   {
+    "url": "https://www.basic-fit.com/en-gb/memberships",
+    "distinct_versions_recent": 0,
+    "snapshots": []
+   }
+  ],
+  "Planet Fitness": [
+   {
+    "url": "https://www.planetfitness.com/gym-memberships",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20250917051622",
+      "replay_url": "https://web.archive.org/web/20250917051622/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250920072129",
+      "replay_url": "https://web.archive.org/web/20250920072129/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250924224011",
+      "replay_url": "https://web.archive.org/web/20250924224011/https://www.planetfitness.com/gym-memberships",
+      "status": "403"
+     },
+     {
+      "timestamp": "20251005154738",
+      "replay_url": "https://web.archive.org/web/20251005154738/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251007082359",
+      "replay_url": "https://web.archive.org/web/20251007082359/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251012034346",
+      "replay_url": "https://web.archive.org/web/20251012034346/https://www.planetfitness.com/gym-memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20251012034346",
+      "replay_url": "https://web.archive.org/web/20251012034346/https://www.planetfitness.com/gym-memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20251105030232",
+      "replay_url": "https://web.archive.org/web/20251105030232/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251201195127",
+      "replay_url": "https://web.archive.org/web/20251201195127/https://www.planetfitness.com/gym-memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20251214205856",
+      "replay_url": "https://web.archive.org/web/20251214205856/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251231031706",
+      "replay_url": "https://web.archive.org/web/20251231031706/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260103062312",
+      "replay_url": "https://web.archive.org/web/20260103062312/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260103092507",
+      "replay_url": "https://web.archive.org/web/20260103092507/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260113225456",
+      "replay_url": "https://web.archive.org/web/20260113225456/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260124023612",
+      "replay_url": "https://web.archive.org/web/20260124023612/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260129082430",
+      "replay_url": "https://web.archive.org/web/20260129082430/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260131102312",
+      "replay_url": "https://web.archive.org/web/20260131102312/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260217183055",
+      "replay_url": "https://web.archive.org/web/20260217183055/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260218120850",
+      "replay_url": "https://web.archive.org/web/20260218120850/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260313212850",
+      "replay_url": "https://web.archive.org/web/20260313212850/https://www.planetfitness.com/gym-memberships/",
+      "status": "403"
+     },
+     {
+      "timestamp": "20260406070117",
+      "replay_url": "https://web.archive.org/web/20260406070117/https://www.planetfitness.com/gym-memberships",
+      "status": "403"
+     },
+     {
+      "timestamp": "20260406221656",
+      "replay_url": "https://web.archive.org/web/20260406221656/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260414003657",
+      "replay_url": "https://web.archive.org/web/20260414003657/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260523073721",
+      "replay_url": "https://web.archive.org/web/20260523073721/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260602175617",
+      "replay_url": "https://web.archive.org/web/20260602175617/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260602195616",
+      "replay_url": "https://web.archive.org/web/20260602195616/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260602195617",
+      "replay_url": "https://web.archive.org/web/20260602195617/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260617151403",
+      "replay_url": "https://web.archive.org/web/20260617151403/https://www.planetfitness.com/gym-memberships/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260702191708",
+      "replay_url": "https://web.archive.org/web/20260702191708/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260726202403",
+      "replay_url": "https://web.archive.org/web/20260726202403/https://www.planetfitness.com/gym-memberships",
+      "status": "200"
+     }
+    ]
+   }
+  ],
+  "Life Time": [
+   {
+    "url": "https://www.lifetime.life/membership.html",
+    "distinct_versions_recent": 1,
+    "snapshots": [
+     {
+      "timestamp": "20260102053000",
+      "replay_url": "https://web.archive.org/web/20260102053000/https://www.lifetime.life/membership.html",
+      "status": "301"
+     }
+    ]
+   }
+  ],
+  "Xponential Fitness": [
+   {
+    "url": "https://www.xponential.com/",
+    "distinct_versions_recent": 30,
+    "snapshots": [
+     {
+      "timestamp": "20250610005537",
+      "replay_url": "https://web.archive.org/web/20250610005537/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250625043545",
+      "replay_url": "https://web.archive.org/web/20250625043545/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250706012220",
+      "replay_url": "https://web.archive.org/web/20250706012220/http://www.xponential.com/",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250709125200",
+      "replay_url": "https://web.archive.org/web/20250709125200/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250716124959",
+      "replay_url": "https://web.archive.org/web/20250716124959/http://xponential.com/",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250723195659",
+      "replay_url": "https://web.archive.org/web/20250723195659/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250725203947",
+      "replay_url": "https://web.archive.org/web/20250725203947/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250801100602",
+      "replay_url": "https://web.archive.org/web/20250801100602/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250813072454",
+      "replay_url": "https://web.archive.org/web/20250813072454/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250819165948",
+      "replay_url": "https://web.archive.org/web/20250819165948/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250823055955",
+      "replay_url": "https://web.archive.org/web/20250823055955/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250826003146",
+      "replay_url": "https://web.archive.org/web/20250826003146/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250827215627",
+      "replay_url": "https://web.archive.org/web/20250827215627/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250905064823",
+      "replay_url": "https://web.archive.org/web/20250905064823/http://www.xponential.com/",
+      "status": "301"
+     },
+     {
+      "timestamp": "20250905064824",
+      "replay_url": "https://web.archive.org/web/20250905064824/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250905195605",
+      "replay_url": "https://web.archive.org/web/20250905195605/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20250917054235",
+      "replay_url": "https://web.archive.org/web/20250917054235/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251013123913",
+      "replay_url": "https://web.archive.org/web/20251013123913/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251018104454",
+      "replay_url": "https://web.archive.org/web/20251018104454/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251104180236",
+      "replay_url": "https://web.archive.org/web/20251104180236/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251109072254",
+      "replay_url": "https://web.archive.org/web/20251109072254/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251206004958",
+      "replay_url": "https://web.archive.org/web/20251206004958/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20251215175624",
+      "replay_url": "https://web.archive.org/web/20251215175624/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260116043151",
+      "replay_url": "https://web.archive.org/web/20260116043151/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260221080258",
+      "replay_url": "https://web.archive.org/web/20260221080258/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260309041550",
+      "replay_url": "https://web.archive.org/web/20260309041550/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260415070909",
+      "replay_url": "https://web.archive.org/web/20260415070909/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260511091205",
+      "replay_url": "https://web.archive.org/web/20260511091205/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260604003744",
+      "replay_url": "https://web.archive.org/web/20260604003744/https://www.xponential.com/",
+      "status": "200"
+     },
+     {
+      "timestamp": "20260611034858",
+      "replay_url": "https://web.archive.org/web/20260611034858/https://www.xponential.com/",
+      "status": "200"
+     }
+    ]
+   }
+  ]
+ }
+}
