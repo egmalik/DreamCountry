@@ -11,10 +11,10 @@ API = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 def _search(query, maxrecords=25):
     data = request_json(API, params={
-        "query": f"{query} sourcelang:english",
+        "query": query,
         "mode": "artlist", "format": "json",
         "maxrecords": maxrecords, "timespan": config.NEWS_TIMESPAN,
-        "sort": "datedesc"})
+        "sort": "datedesc"}, retries=2)
     return [{
         "title": a.get("title"),
         "url": a.get("url"),

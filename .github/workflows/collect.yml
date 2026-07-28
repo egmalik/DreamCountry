@@ -19,7 +19,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 55
     env:
       # Tier B keys — add them as repository secrets to activate those sources
       GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
@@ -47,15 +47,18 @@ jobs:
 
       - name: Collect competitor data
         working-directory: competitor-intel
+        timeout-minutes: 45
         run: python collect.py
 
       - name: Upload data as artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: competitor-intel-data
           path: competitor-intel/data/
 
       - name: Commit refreshed data to this branch
+        if: always()
         run: |
           git config user.name "competitor-intel-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

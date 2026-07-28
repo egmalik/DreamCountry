@@ -11,6 +11,8 @@ SESSION.headers["User-Agent"] = config.CONTACT
 # Seconds to sleep between calls to the same host — keeps us inside every
 # free tier's politeness expectations.
 PACING = 1.0
+# Hosts with stricter documented limits (GDELT: max 1 request per 5s).
+HOST_PACING = {"api.gdeltproject.org": 5.0}
 
 _last_call = {}
 
@@ -23,7 +25,7 @@ def request_json(url, params=None, method="GET", data=None, headers=None,
                  timeout=45, retries=3):
     host = url.split("/")[2]
     for attempt in range(retries):
-        wait = PACING - (time.time() - _last_call.get(host, 0))
+        wait = HOST_PACING.get(host, PACING) - (time.time() - _last_call.get(host, 0))
         if wait > 0:
             time.sleep(wait)
         try:

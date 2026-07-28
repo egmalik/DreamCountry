@@ -1,8 +1,11 @@
 """SEC EDGAR — filings of US-listed competitors (10-K/10-Q/8-K).
 
-Free, keyless; requires an identifying User-Agent (set globally in http.py).
+Free, keyless. SEC's fair-access policy requires a User-Agent containing an
+email-style contact ("Company Name contact@example.com") or it returns 403.
 Docs: https://www.sec.gov/search-filings/edgar-application-programming-interfaces
 """
+import os
+
 import config
 from clients.http import request_json
 
@@ -11,8 +14,19 @@ SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
 INTERESTING_FORMS = {"10-K", "10-Q", "8-K", "S-1", "DEF 14A"}
 
 
+def _headers():
+    contact = os.environ.get("SEC_CONTACT_EMAIL",
+                             "egmalik@users.noreply.github.com")
+    return {"User-Agent": f"DreamCountry CompetitorIntel {contact}",
+            "Accept-Encoding": "gzip, deflate"}
+
+
+def _get(url):
+    return request_json(url, headers=_headers())
+
+
 def _cik_map():
-    data = request_json(TICKERS_URL)
+    data = _get(TICKERS_URL)
     return {row["ticker"].upper(): row["cik_str"] for row in data.values()}
 
 
@@ -33,7 +47,7 @@ def fetch():
             out.append({"competitor": comp["name"], "ticker": ticker,
                         "error": "ticker not found in EDGAR"})
             continue
-        sub = request_json(SUBMISSIONS.format(cik=cik))
+        sub = _get(SUBMISSIONS.format(cik=cik))
         recent = sub.get("filings", {}).get("recent", {})
         filings = []
         for form, date, accession, doc in zip(recent.get("form", []),

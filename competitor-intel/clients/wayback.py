@@ -23,7 +23,8 @@ def fetch():
             try:
                 rows = request_json(CDX, params={
                     "url": url, "output": "json", "collapse": "digest",
-                    "fl": "timestamp,original,statuscode", "limit": -50})
+                    "fl": "timestamp,original,statuscode", "limit": -30},
+                    timeout=60, retries=2)
             except SourceError as err:
                 pages.append({"url": url, "error": str(err)})
                 continue
