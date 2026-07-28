@@ -26,15 +26,15 @@ def _run(query, expect_results=False):
     for url in ENDPOINTS:
         try:
             data = request_json(url, method="POST", data={"data": query},
-                                timeout=120, retries=2)
+                                timeout=180, retries=2)
             if expect_results and not data.get("elements"):
+                # A mirror missing data answers 200 with nothing — that is a
+                # failure for queries that must match (major chains exist).
                 last = SourceError(f"{url.split('/')[2]}: empty result")
-                continue  # suspicious — try the next mirror
+                continue
             return data
         except SourceError as err:
             last = err
-    if expect_results:
-        return {"elements": []}  # genuinely empty everywhere
     raise last
 
 
@@ -74,17 +74,22 @@ def fetch():
     brand within THREAT_RADIUS_KM of our own clubs."""
     out = {"brand_sites": {}, "gyms_near_our_clubs": []}
 
-    for comp in config.COMPETITORS:
-        if comp["country"] != "GB":
-            continue
-        pattern = "|".join(re.escape(t) for t in config.brand_terms(comp))
-        query = (
-            '[out:json][timeout:90];'
-            f'nwr{UK_BBOX}["name"~"{pattern}",i]{GYM_FILTER};'
-            'out center 500;'
-        )
-        data = _run(query, expect_results=True)
-        out["brand_sites"][comp["name"]] = _elements_to_sites(data["elements"])
+    # One combined query for every tracked brand — sequential per-brand
+    # queries trip Overpass rate limits and take 6x as long.
+    gb_comps = [c for c in config.COMPETITORS if c["country"] == "GB"]
+    pattern = "|".join(re.escape(t) for c in gb_comps
+                       for t in config.brand_terms(c))
+    query = (
+        '[out:json][timeout:150];'
+        f'nwr{UK_BBOX}["name"~"{pattern}",i]{GYM_FILTER};'
+        'out center 2000;'
+    )
+    sites = _elements_to_sites(_run(query, expect_results=True)["elements"])
+    for comp in gb_comps:
+        terms = [t.lower() for t in config.brand_terms(comp)]
+        out["brand_sites"][comp["name"]] = [
+            s for s in sites
+            if any(t in (s["name"] or s["brand"] or "").lower() for t in terms)]
 
     radius_m = int(config.THREAT_RADIUS_KM * 1000)
     around = "".join(

@@ -35,8 +35,11 @@ Everything is driven by [`config.py`](config.py):
 **Tier A — free, keyless, active now:**
 OpenStreetMap Overpass, Apple iTunes Search + App Store reviews RSS,
 SEC EDGAR, PlanIt (UK planning applications), GDELT news, Wayback Machine
-CDX, Reddit public JSON (best-effort — some datacenter IPs are refused),
-RunSignup races.
+CDX, Reddit public JSON, RunSignup races.
+
+Note: SEC EDGAR and Reddit refuse requests from datacenter IP ranges
+(including GitHub Actions runners). Both work when you run `collect.py`
+from an office/home network — the collectors are identical.
 
 **Tier B — free key required (set the env var to activate):**
 
