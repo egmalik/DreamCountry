@@ -1,6 +1,6 @@
 {
  "source": "gdelt_news",
- "collected_at": "2026-07-28T23:02:55+00:00",
+ "collected_at": "2026-07-28T23:39:11+00:00",
  "ok": true,
  "data": {
   "brand_news": {
@@ -14,46 +14,6 @@
      "error": "HTTP 429 from api.gdeltproject.org"
     }
    ],
-   "David Lloyd": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Anytime Fitness": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Nuffield Health": [],
-   "Virgin Active": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Basic-Fit": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Planet Fitness": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Life Time": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "Xponential Fitness": []
-  },
-  "event_signals": {
-   "PureGym": [
-    {
-     "error": "HTTP 429 from api.gdeltproject.org"
-    }
-   ],
-   "The Gym Group": [],
    "David Lloyd": [],
    "Anytime Fitness": [
     {
@@ -77,23 +37,27 @@
    ],
    "Planet Fitness": [
     {
-     "title": "Fox Valley businesses , organizations offer storm relief after tornado",
-     "url": "https://www.wbay.com:443/2026/07/28/fox-valley-businesses-organizations-offer-storm-relief-after-tornado/",
-     "date": "20260728T223000Z",
-     "source": "wbay.com",
-     "country": "United States"
-    }
-   ],
-   "Life Time": [
-    {
      "error": "HTTP 429 from api.gdeltproject.org"
     }
    ],
+   "Life Time": [],
    "Xponential Fitness": [
     {
      "error": "HTTP 429 from api.gdeltproject.org"
     }
    ]
+  },
+  "event_signals": {
+   "PureGym": [],
+   "The Gym Group": [],
+   "David Lloyd": [],
+   "Anytime Fitness": [],
+   "Nuffield Health": [],
+   "Virgin Active": [],
+   "Basic-Fit": [],
+   "Planet Fitness": [],
+   "Life Time": [],
+   "Xponential Fitness": []
   }
  }
 }

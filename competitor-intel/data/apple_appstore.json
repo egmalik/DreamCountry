@@ -1,6 +1,6 @@
 {
  "source": "apple_appstore",
- "collected_at": "2026-07-28T22:58:44+00:00",
+ "collected_at": "2026-07-28T23:34:38+00:00",
  "ok": true,
  "data": [
   {
@@ -8,18 +8,49 @@
    "app_name": "PureGym",
    "app_id": 588860938,
    "rating": 4.74087,
-   "rating_count": 224400,
+   "rating_count": 224412,
    "current_version": "6.0.0",
    "last_updated": "2026-07-10T13:28:59Z",
    "genre": "Health & Fitness",
-   "recent_reviews": []
+   "recent_reviews": [
+    {
+     "title": "Outstanding",
+     "rating": "5",
+     "text": "Friendly and welcoming environment",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Work it",
+     "rating": "5",
+     "text": "Quality just quantity",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Unprofessional",
+     "rating": "1",
+     "text": "I use the PureGym at First Street. I brought my mother in using bring a buddy code, Callum Brady walked up to me and asked if I had membership I said yes. I came in with my code, I had no plans to use the gym just to escort my mum. We went upstairs and he sent another colleague to come and harass us asking for code, I eventually showed him the two separate codes he apologized and said Callum said ",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Slow",
+     "rating": "2",
+     "text": "Always slower than just entering the door code. It doesn’t even show opening times in the app, it opens the website.",
+     "version": "6.0.0"
+    },
+    {
+     "title": "Utterly sick of standing at my gym front door!!!!!!",
+     "rating": "1",
+     "text": "SERIOUSLY get the he gym access sorted, before you load up all the rest of the bloat where in your app have the gym access start, the amount of time I have to stand like an idiot waiting on gym access QR to load is frankly a joke!   I don’t use your rubbish app for anything but gym access, so have it load instantly….  INSTANTLY or have a second app just for access with the QR code already loaded b",
+     "version": "6.0.0"
+    }
+   ]
   },
   {
    "competitor": "The Gym Group",
    "app_name": "The Gym Group",
    "app_id": 1444707310,
-   "rating": 4.72218,
-   "rating_count": 121003,
+   "rating": 4.7222,
+   "rating_count": 121013,
    "current_version": "7.7",
    "last_updated": "2026-07-03T10:24:26Z",
    "genre": "Health & Fitness",
@@ -60,8 +91,8 @@
    "competitor": "David Lloyd",
    "app_name": "David Lloyd Clubs",
    "app_id": 1037992616,
-   "rating": 4.68185,
-   "rating_count": 81714,
+   "rating": 4.68186,
+   "rating_count": 81716,
    "current_version": "151.1.0",
    "last_updated": "2026-06-24T08:54:18Z",
    "genre": "Health & Fitness",
@@ -145,7 +176,7 @@
    "app_name": "Nuffield Health",
    "app_id": 1612026742,
    "rating": 4.7016,
-   "rating_count": 14675,
+   "rating_count": 14679,
    "current_version": "1.2.21",
    "last_updated": "2026-04-27T08:01:02Z",
    "genre": "Health & Fitness",
@@ -187,7 +218,7 @@
    "app_name": "Virgin Active UK",
    "app_id": 1005816652,
    "rating": 4.72969,
-   "rating_count": 70423,
+   "rating_count": 70424,
    "current_version": "4.5.15",
    "last_updated": "2026-07-16T06:35:41Z",
    "genre": "Health & Fitness",
@@ -264,40 +295,40 @@
    "competitor": "Planet Fitness",
    "app_name": "Planet Fitness",
    "app_id": 399857015,
-   "rating": 4.87293,
-   "rating_count": 755330,
+   "rating": 4.87291,
+   "rating_count": 755578,
    "current_version": "9.12.4",
    "last_updated": "2026-07-13T13:47:08Z",
    "genre": "Health & Fitness",
    "recent_reviews": [
     {
+     "title": "The gym is GREAT; The app is not",
+     "rating": "3",
+     "text": "I LOVE planet fitness!!! Absolutely amazing investment. However, the app is just not it. Two thirds of the app’s content is “deals” to try to convince you to buy athletic outfits, meal plans, or other items that aren’t even fitness related. There aren’t details on your home gym that are easily accessible, no tips and information about amenities at your home gym, no map that I can find. Under your ",
+     "version": "9.12.4"
+    },
+    {
+     "title": "En forma",
+     "rating": "5",
+     "text": "Muy buenos servicios",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Does What it Should!",
+     "rating": "5",
+     "text": "This app is very solid. Does exactly what it should do. It offers the features and functionality that you would expect. Good way to see if the gym is busy and even get some workout info if you’re looking for it. \nIt’s required if you’re a member so you can “scan-in” as you arrive at the gym therefore recommending it or not is a non sequitur. Otherwise, yeah, good stuff.",
+     "version": "9.12.4"
+    },
+    {
+     "title": "Crowd Meter",
+     "rating": "2",
+     "text": "The crowd meter is definitely not working. Gym is packed and it shows like it barely has people inside. (3 bars for a fully packed gym). This should be fixed.",
+     "version": "9.12.4"
+    },
+    {
      "title": "Add to Apple wallet",
      "rating": "4",
      "text": "Update your app to add QR code to Apple wallet already",
-     "version": "9.12.4"
-    },
-    {
-     "title": "Blocked my account",
-     "rating": "2",
-     "text": "I was trying to login to my account on my iPad because I already was logged in on my phone, but then I didn’t know where the code was going so I finally figured out and then it wouldn’t let me login. It kept saying your account has been blocked.",
-     "version": "9.12.4"
-    },
-    {
-     "title": "Morning shift",
-     "rating": "5",
-     "text": "They are always friendly and appreciated for showing up so early. We couldn’t workout early without them!!",
-     "version": "9.12.4"
-    },
-    {
-     "title": "Awesome, high integrity employees.",
-     "rating": "5",
-     "text": "The Goodlettsville Tennessee gym is always clean. All of the staff is nice and helpful.",
-     "version": "9.12.4"
-    },
-    {
-     "title": "Stuck on loading",
-     "rating": "1",
-     "text": "Can’t get in the app. Stuck on the loading screen even after uninstalling and reinstalling it",
      "version": "9.12.4"
     }
    ]
@@ -306,12 +337,18 @@
    "competitor": "Life Time",
    "app_name": "Life Time Digital",
    "app_id": 1192326768,
-   "rating": 4.77513,
-   "rating_count": 177266,
+   "rating": 4.77511,
+   "rating_count": 177267,
    "current_version": "2026.7.17",
    "last_updated": "2026-07-20T14:59:25Z",
    "genre": "Health & Fitness",
    "recent_reviews": [
+    {
+     "title": "Don’t change UI",
+     "rating": "1",
+     "text": "They have changed the user experience several times in a short time periods for nothing.",
+     "version": "2026.7.17"
+    },
     {
      "title": "Horrible glitchy app",
      "rating": "1",
@@ -335,12 +372,6 @@
      "rating": "3",
      "text": "The only thing I used the life time watch app for was the QR code to get into lifetime. That no longer works unless you allow app to read and write health data. \n\nLT, please respect your members privacy when they don’t want you to have their health data.",
      "version": "2026.7.10"
-    },
-    {
-     "title": "Wasted a whole day -not reliable info",
-     "rating": "1",
-     "text": "The app has the wrong dates and times for classes especially the chat interface, please refer to your local gym board for accurate classes dates",
-     "version": "2026.7.10"
     }
    ]
   },
@@ -348,8 +379,8 @@
    "competitor": "Xponential Fitness",
    "app_name": "Club Pilates",
    "app_id": 1485767959,
-   "rating": 4.81226,
-   "rating_count": 130007,
+   "rating": 4.81227,
+   "rating_count": 130018,
    "current_version": "3.14.3",
    "last_updated": "2026-05-27T18:17:45Z",
    "genre": "Health & Fitness",
