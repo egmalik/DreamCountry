@@ -44,7 +44,17 @@ skills/
   study-plan/
     skill.yaml        # manifest: name, triggers, allowed channels, KB inputs
     prompt.md         # the skill's own LLM instructions
+    examples.md       # example output messages the agent imitates (see below)
 ```
+
+### Skill examples (`examples.md`) — required for every skill
+
+Each skill ships with an examples file: 2–4 complete, realistic example messages showing exactly how the final WhatsApp message should be structured — greeting, ordering of sections, bullet style, emoji usage (or none), length, and sign-off. These are **few-shot examples injected into the skill's LLM prompt**, so the agent can structure the message on its own without me describing the format every time:
+
+- The agent must **copy the structure and tone** of the examples exactly, and only swap in the current facts from the KB — examples define *form*, the KB defines *content*.
+- Examples must cover the main variations the skill will hit (e.g., for study-plan: a normal week, a short gap with only one topic, and a case where some KB info is missing).
+- Placeholder values inside examples are written in an obvious template style (e.g., `{next_class_date}`, `{topics}`) or as clearly fake sample data — the plan should pick one convention and use it consistently.
+- When I want to change how messages look, I edit `examples.md` — no code or prompt changes needed. The plan must include the initial `examples.md` for the study-plan skill, written out in full, and I'll adjust it to my taste.
 
 - **Skill #1 — "What is the studying plan until next class"**: given today's date, the class schedule, and the syllabus/plan in the KB, produce a clear message listing what to study between now and the next class. We'll refine this skill's logic later — for now the plan just needs the skill scaffold, its KB inputs, and a working end-to-end pass with placeholder logic.
 - Adding a future skill must mean: add a folder, restart, done. No core-code changes.
@@ -104,7 +114,7 @@ Each phase ends with something I can run and test myself, with setup instruction
 - Recommended WhatsApp route (driven by whether target channels are groups) with explicit risk statement.
 - Final tech stack and directory tree.
 - The command grammar and the exact confirm-before-send flow.
-- Skill manifest format, with the study-plan skill's manifest written out as the concrete example.
+- Skill manifest format, with the study-plan skill's manifest **and its full `examples.md`** written out as the concrete example.
 - KB file formats with realistic example content for `schedule.md`, `syllabus.md`, `plan.md`.
 - Sequence walkthrough of one full interaction: my command → parse → skill → draft → my confirmation → send → report.
 - Test strategy and how I update the KB day to day.
