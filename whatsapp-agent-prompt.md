@@ -2,92 +2,117 @@
 
 ---
 
-I want you to design (and later build) a **personal AI agent connected to my WhatsApp** that can read incoming messages and **send messages on my behalf**, with all its replies grounded in a **structured knowledge base that I maintain**. You are in plan mode: produce a complete implementation plan first, ask me the open questions listed at the end, and do not write code until I approve the plan.
+I want you to design (and later build) a **personal AI agent connected to my WhatsApp**. It is **not** a general auto-responder. It is a command-driven assistant with three hard rules:
 
-## 1. What the system is
+1. **It only ever sends messages into 2 target channels** (WhatsApp chats/groups) that I configure. Nothing else, ever.
+2. **It only acts when I trigger it** — it never responds to incoming messages on its own. Triggers come exclusively from a **dedicated control channel** between me and the agent.
+3. **It works through skills** — named, self-contained capabilities. We launch with exactly **one skill**: "What is the studying plan until next class." More skills come later, so the skill system must be pluggable from day one.
 
-A single, well-structured service ("the agent") that:
+You are in plan mode: produce a complete implementation plan first, ask me the open questions at the end, and do not write code until I approve the plan.
 
-1. **Connects to my personal WhatsApp account** — receives incoming messages in real time and can send outgoing messages.
-2. **Acts as me (or clearly as my assistant)** — drafts and sends replies in my tone and style.
-3. **Answers only from a grounding knowledge base** — a folder of structured files I write and update. If the answer is not in the knowledge base, the agent must say it doesn't know (or escalate to me), never invent facts.
-4. **Keeps me in control** — configurable per-contact behavior: auto-reply, draft-for-my-approval, or ignore.
+## 1. Core interaction model
 
-## 2. Functional requirements
+```
+Me ──(command)──► Control Channel ──► Agent ──(runs skill, grounded in KB)──► Target Channel 1 or 2
+                                        │
+                                        └──(confirmation / result back to me in Control Channel)
+```
 
-### WhatsApp connectivity
-- Evaluate the two realistic integration routes and recommend one, with trade-offs stated plainly:
-  - **WhatsApp Business Cloud API (Meta official)** — reliable and ToS-safe, but requires a business number and message templates for outbound-initiated chats.
-  - **Device-linking libraries (e.g. Baileys / whatsapp-web.js)** — works with my existing personal number via QR pairing, but is unofficial and carries a ban risk that the plan must state explicitly and mitigate (rate limits, human-like send pacing, no bulk sending).
-- Support: text in/out at minimum; voice-note transcription and image understanding as a stretch phase.
-- Reconnection handling: the session must survive restarts and re-authenticate without losing state.
+- **Control channel**: one dedicated WhatsApp chat between me and the agent (my self-chat, or a chat with the agent's number — recommend which, based on the integration route). Commands from **my WhatsApp ID only**; messages from anyone else in any chat are ignored and logged, never acted on.
+- **Target channels**: exactly 2 chats/groups, defined by chat ID in config. The send layer must **hard-enforce** this allowlist — the check lives in the WhatsApp adapter itself, so no skill or LLM output can ever cause a send anywhere else.
+- **Trigger-only operation**: the agent is idle until I issue a command. Incoming messages in target channels may be *read and stored as context* (e.g., to know when the next class is announced), but never replied to autonomously.
+- Every action ends with a short report back to me in the control channel: what was sent, where, or why it failed.
 
-### Agent brain
-- Use the Claude API (latest model) as the reasoning engine, with an agentic loop: classify the incoming message → retrieve relevant knowledge → draft reply → apply guardrails → send or queue for approval.
-- **Persona config**: a `persona.md` file defining my name, tone, languages I reply in, sign-off style, and topics I never discuss.
-- **Conversation memory**: per-contact conversation history (rolling window + summary) stored locally so replies have context.
+## 2. Command interface (control channel)
 
-### Grounding knowledge base (I will author the content; you design the structure)
-Design a clean, human-editable KB layout, for example:
+Design a small, forgiving command grammar — I'll type these on my phone, so natural phrasing should work, e.g.:
+
+- `study plan` → run the studying-plan skill and show me the draft
+- `send to <channel-1|channel-2>` → send the last approved draft to that target channel
+- `preview` / `cancel` / `status` / `pause` / `resume`
+- `help` → list available skills and commands
+
+Parse commands with the LLM (intent classification) but keep the **actions** deterministic: the LLM decides *which* command I meant, code decides *what happens*. Default flow is **draft → I confirm → send**; direct-send only if I explicitly say so in the command.
+
+## 3. Skill system
+
+- A skill is a self-contained module with a manifest: name, trigger phrases, which KB files it reads, which target channel(s) it may address, and its output template.
+- Skills directory layout, e.g.:
+
+```
+skills/
+  study-plan/
+    skill.yaml        # manifest: name, triggers, allowed channels, KB inputs
+    prompt.md         # the skill's own LLM instructions
+```
+
+- **Skill #1 — "What is the studying plan until next class"**: given today's date, the class schedule, and the syllabus/plan in the KB, produce a clear message listing what to study between now and the next class. We'll refine this skill's logic later — for now the plan just needs the skill scaffold, its KB inputs, and a working end-to-end pass with placeholder logic.
+- Adding a future skill must mean: add a folder, restart, done. No core-code changes.
+
+## 4. Grounding knowledge base (I author the content; you design the structure)
+
+All skill output must be grounded in a human-editable KB. Proposed layout — refine it in your plan:
 
 ```
 knowledge/
-  persona.md            # who I am, tone, style, boundaries
-  contacts.yaml         # per-contact rules: auto / approve / ignore, language, relationship
-  facts/                # topic files the agent may quote from
-    business.md
-    pricing.md
-    availability.md
-    faq.md
-  policies.md           # hard rules: what never to say, when to escalate to me
+  persona.md          # my name, tone, languages, sign-off style
+  channels.yaml       # control channel ID + the 2 target channel IDs and their purpose
+  study/
+    schedule.md       # class days/times, next-class date
+    syllabus.md       # topics per class / week
+    plan.md           # the studying plan source material
+  policies.md         # hard rules: what never to send, when to just ask me
 ```
 
-- Retrieval: start simple (load whole KB into context if it fits; chunk + embed only if it grows). Justify the choice in the plan.
-- **Strict grounding rule** in the system prompt: every factual claim must trace to a KB file; otherwise reply "I'll get back to you" and notify me.
+- **Strict grounding rule**: every factual claim in an outgoing message must trace to a KB file. If the KB can't answer (e.g., next class date missing), the agent tells me what's missing in the control channel instead of guessing.
+- Retrieval: the KB is small — load relevant files whole into context per skill manifest. No embeddings/vector store in v1; justify if you disagree.
 
-### Control & safety (non-negotiable)
-- **Approval workflow**: by default every outgoing message is a draft I approve (via a simple channel — CLI, small web dashboard, or a WhatsApp "self-chat" with approve/reject commands — recommend one). Auto-send only for contacts/topics I explicitly whitelist in `contacts.yaml`.
-- **Kill switch**: one command to pause all sending instantly.
-- **Rate limiting & pacing**: cap messages per hour, add human-like delays.
-- **Audit log**: every received message, retrieval result, draft, decision (auto/approved/rejected), and sent message logged to disk.
-- **No mass messaging**: the agent only replies to inbound messages or sends one-off messages I explicitly dictate; it must refuse bulk/broadcast behavior by design.
-- Secrets (API keys, session credentials) in `.env`, never committed.
+## 5. WhatsApp connectivity
 
-## 3. Architecture & code quality requirements
+- Evaluate the two realistic routes and recommend one, trade-offs stated plainly:
+  - **WhatsApp Business Cloud API (official)** — ToS-safe, needs a separate business number; the control channel is then simply my chat with that number. Note: group messaging support is limited — verify whether the 2 target channels can be groups under this route.
+  - **Device-linking libraries (Baileys / whatsapp-web.js)** — pairs with an existing number via QR, full group support, but unofficial with account-ban risk. Our design is inherently low-risk (only-when-triggered, 2 channels, low volume, human-like pacing) — state the residual risk anyway.
+- If the target channels are WhatsApp **groups**, that likely decides the route — make this the first question you ask me.
+- Session must survive restarts and re-authenticate without losing state.
 
-- Propose a clean layered structure, e.g.:
-  - `channel/` — WhatsApp adapter (swappable, so Cloud API vs Baileys is one interface)
-  - `agent/` — LLM orchestration, prompt assembly, guardrails
-  - `knowledge/` — KB loader, retrieval, validation of KB file formats
-  - `approval/` — draft queue + approval interface
-  - `store/` — conversation history, audit log (SQLite is fine)
-  - `config/` — typed config loading
-- TypeScript (Node.js) preferred unless you argue convincingly for Python.
-- Tests for: KB parsing/validation, guardrail decisions (auto vs approve vs ignore), and the grounding rule (mock LLM).
-- Runnable locally first (my machine or a small VPS + Docker); no cloud complexity in v1.
+## 6. Control & safety (non-negotiable)
 
-## 4. Phased delivery (structure the plan this way)
+- **Sender authentication**: commands accepted only from my WhatsApp ID, checked in code.
+- **Channel allowlist enforced in the adapter** (defense in depth — not just in prompts).
+- **Confirm-before-send** as default; `pause` as kill switch; rate cap (a handful of messages/day is the expected volume).
+- **Audit log**: every command, draft, confirmation, and send logged to disk.
+- Secrets in `.env`, never committed.
 
-1. **Phase 1 — Skeleton & echo**: WhatsApp connection working, incoming messages logged, manual send from CLI works.
-2. **Phase 2 — Grounded drafts**: KB loading + Claude drafting + approval queue; nothing auto-sends.
-3. **Phase 3 — Controlled autonomy**: per-contact auto-reply rules, rate limits, kill switch, audit log complete.
-4. **Phase 4 — Stretch**: voice-note transcription, media understanding, scheduled/reminder messages, simple web dashboard.
+## 7. Architecture & code quality
 
-Each phase must end with something I can run and test myself, with setup instructions.
+- Layered structure, e.g.: `channel/` (WhatsApp adapter + allowlist), `commands/` (parsing + dispatch), `skills/` (pluggable modules), `knowledge/` (KB loader + validation), `store/` (context memory, audit log — SQLite), `config/`.
+- TypeScript (Node.js) preferred unless you argue convincingly otherwise.
+- Tests for: command parsing, sender authentication, channel-allowlist enforcement, KB validation, and the study-plan skill with a mocked LLM.
+- Runs locally first (my machine or small VPS + Docker); no cloud complexity in v1.
 
-## 5. What the plan must contain before any code
+## 8. Phased delivery (structure the plan this way)
 
-- Recommended WhatsApp integration route with explicit risk statement.
-- Final tech stack and project directory tree.
-- KB file formats with concrete example content for each file.
-- The agent's system-prompt design (grounding rule, persona injection, escalation behavior).
-- Sequence diagram (text is fine) of one message's journey: inbound → retrieval → draft → approval → send.
-- Test strategy and how I do day-to-day KB updates.
+1. **Phase 1 — Connection & control channel**: WhatsApp connected; agent hears my commands in the control channel, ignores everything else, replies with `status`/`help`.
+2. **Phase 2 — Skill scaffold + send path**: skill system in place; study-plan skill returns a grounded draft from the KB; confirm-then-send into a target channel works; allowlist and audit log enforced.
+3. **Phase 3 — Polish skill #1**: refine the studying-plan logic together (this is where "we work on this skill later" happens), better date handling, formatting, KB update workflow.
+4. **Phase 4 — Later**: additional skills, scheduled triggers (e.g., auto-draft every Sunday for my confirmation), voice-command support.
 
-## 6. Questions to ask me before finalizing the plan
+Each phase ends with something I can run and test myself, with setup instructions.
 
-1. Is this for my **personal number** or can I dedicate a separate/business number to the agent?
-2. Which languages must the agent handle?
-3. Default posture: approve-everything first, or auto-reply for some contacts from day one?
-4. Where will it run — my computer, or a small server?
-5. What are the first 3 real use cases (e.g., business FAQs, availability, appointment requests)?
+## 9. What the plan must contain before any code
+
+- Recommended WhatsApp route (driven by whether target channels are groups) with explicit risk statement.
+- Final tech stack and directory tree.
+- The command grammar and the exact confirm-before-send flow.
+- Skill manifest format, with the study-plan skill's manifest written out as the concrete example.
+- KB file formats with realistic example content for `schedule.md`, `syllabus.md`, `plan.md`.
+- Sequence walkthrough of one full interaction: my command → parse → skill → draft → my confirmation → send → report.
+- Test strategy and how I update the KB day to day.
+
+## 10. Questions to ask me before finalizing the plan
+
+1. Are the 2 target channels **groups or individual chats**? (This decides the WhatsApp route.)
+2. Do I already have a second number I can dedicate to the agent, or must it run on my personal number?
+3. For the study-plan skill: where does the class schedule live today (paper, calendar, chat messages)? Who updates it, and how often does it change?
+4. What language(s) should the study-plan message be written in?
+5. Should the agent read messages in the 2 target channels as context (e.g., teacher announces next class), or treat them as write-only?
